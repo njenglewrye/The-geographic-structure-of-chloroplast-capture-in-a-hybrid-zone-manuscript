@@ -1,0 +1,45 @@
+# This is all of the new code for bio12 projection other than basic stuff like making directories and organizing'
+# The syntax of import gdal to from osgeo import gdal was updated in the scripts
+
+# We skip the first step involving the dating histogram because it doesn't need to be done again for a new variable. But we copy the file
+cp ./../ancestral_projection_astral_BIO1/dating_histograms.csv ./
+
+# This step simply needs updated paths and file names
+python3 ./../scripts/projections_binned_ancestralreconstruction.py ./../ancestral_reconstruction_astral/out_table_BIOCLIM_17.txt ./BIOCLIM_17 -l ~/Desktop/climate_data/Shelly_fullBIOCLIMset/Bio17/*.tif
+mkdir projected
+mv *tifout*.tif ./projected/
+
+# The weighted script has a place at the bottom where it clearly indicates how to change the file names for the variable (it will just fail if it is wrong as long as the file names are correctly set in the previous steps)
+python3 ./../scripts/weight_projection_by_date_probability.py dating_histograms.csv 
+
+# Subset the nodes to the study group
+mkdir projected_weighted_nodesunused
+mv projected_weighted/* projected_weighted_nodesunused/
+mv projected_weighted_nodesunused/142.* projected_weighted
+mv projected_weighted_nodesunused/145.* projected_weighted
+mv projected_weighted_nodesunused/146.* projected_weighted
+
+# Do the normalization as usual
+mkdir combined_normalized
+for i in `ls projected_weighted/*.tif | sed 's/.*_//g' | sed 's/\.tif//g' | sort | uniq`; do
+    python3 ./../scripts/trim_sum_and_normalize_projections.py ./combined_normalized/${i}.combined.tif -178.2 6.6 -49.0 83.3 --rasters `ls projected_weighted/*_${i}.*tif`
+    done
+
+# Here we actually do the multiplication of the two variables
+cd ..
+mkdir combined_normalized_BIO1XBIO17
+for f in ancestral_projection_astral_BIO1/combined_normalized/*.tif; do
+g=`echo $f | sed 's/_BIO1\//_BIO17\//g'`
+h=`echo $f | sed 's/\.combined\./.combined.combined./g' | sed 's/.*\///g'`
+echo $h
+gdal_calc.py -A $f -B $g --outfile="./combined_normalized_BIO1XBIO17/${h}" --calc="A*B"
+done
+
+# Then we normalize again given the different scaling expected
+mkdir combined_normalized_BIO1XBIO17_normalized
+for i in `ls combined_normalized_BIO1XBIO17/*.tif | sed 's/.*\///g'`; do
+    python3 ./scripts/trim_sum_and_normalize_projections.py ./combined_normalized_BIO1XBIO17_normalized/${i} -178.2 6.6 -49.0 83.3 --rasters ./combined_normalized_BIO1XBIO17/${i}
+    done
+
+rm -rf combined_normalized_BIO1XBIO17
+

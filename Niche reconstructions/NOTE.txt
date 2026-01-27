@@ -1,0 +1,1 @@
+weighted python script in script folder manually modified for bio12 paths
