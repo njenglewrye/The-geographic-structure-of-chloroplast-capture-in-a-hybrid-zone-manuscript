@@ -1,0 +1,19 @@
+library(dplyr)
+zygomorphy <- read.csv("zygomorphy_length.csv")#
+zygomorphy.avg <- zygomorphy %>% group_by(collectnum) %>% summarise(species = first(species), herbarium = first(herbarium), zygomorphylong = mean(zygomorphylong), zygomorphyshort = mean(zygomorphyshort), zygomorphyratio = mean(zygomorphyratio))
+pwd
+install.packages(Installr)
+install.packages(ggmap)
+install.packages("phytools")
+install.packages("phangorn")
+install.packages("phytools")
+install.packages("geiger")
+install.packages("ggplot2")
+install.packages("phangorn")
+install.packages("diversitree")
+install.packages("dplyr")
+Install.packages("caper")
+install.packages("caper")
+install.packages("readr")
+ls
+pwd

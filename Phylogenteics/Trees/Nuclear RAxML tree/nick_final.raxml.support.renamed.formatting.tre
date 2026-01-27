@@ -1,0 +1,649 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=547;
+	taxlabels
+	'Heuchera alba E306-2 WV Grant'
+	'Heuchera alba H63-1 WV Pendleton'
+	'Heuchera alba H63-2 WV Pendleton'
+	'Heuchera alba H64-1 WV Grant'
+	'Heuchera alba H64-2 WV Grant'
+	'Heuchera americana var. americana A1-1 AL'
+	'Heuchera americana var. americana A1-2 AL'
+	'Heuchera americana var. americana A1-3 AL'
+	'Heuchera americana var. americana A1-4 AL'
+	'Heuchera americana var. americana A10-1 IN'
+	'Heuchera americana var. americana A10-2 IN'
+	'Heuchera americana var. americana A10-3 IN'
+	'Heuchera americana var. americana A10-4 IN'
+	'Heuchera americana var. americana A10-5 IN'
+	'Heuchera americana var. americana A10-6 IN'
+	'Heuchera americana var. americana A10-7 IN'
+	'Heuchera americana var. americana A10-8 IN'
+	'Heuchera americana var. americana A11-1 IN'
+	'Heuchera americana var. americana A11-2 IN'
+	'Heuchera americana var. americana A11-3 IN'
+	'Heuchera americana var. americana A11-4 IN'
+	'Heuchera americana var. americana A11-5 IN'
+	'Heuchera americana var. americana A11-6 IN'
+	'Heuchera americana var. americana A11-7 IN'
+	'Heuchera americana var. americana A11-8 IN'
+	'Heuchera americana var. americana A2-3 AL'
+	'Heuchera americana var. americana A2-4 AL'
+	'Heuchera americana var. americana A3-1 AL'
+	'Heuchera americana var. americana A3-2 AL'
+	'Heuchera americana var. americana A3-3 AL'
+	'Heuchera americana var. americana A3-4 AL'
+	'Heuchera americana var. americana A34-1 TN'
+	'Heuchera americana var. americana A34-10 TN'
+	'Heuchera americana var. americana A34-2 TN'
+	'Heuchera americana var. americana A34-3 TN'
+	'Heuchera americana var. americana A34-4 TN'
+	'Heuchera americana var. americana A34-5 TN'
+	'Heuchera americana var. americana A34-6 TN'
+	'Heuchera americana var. americana A34-7 TN'
+	'Heuchera americana var. americana A34-8 TN'
+	'Heuchera americana var. americana A34-9 TN'
+	'Heuchera americana var. americana A35-1 TN'
+	'Heuchera americana var. americana A35-10 TN'
+	'Heuchera americana var. americana A35-2 TN'
+	'Heuchera americana var. americana A35-3 TN'
+	'Heuchera americana var. americana A35-4 TN'
+	'Heuchera americana var. americana A35-5 TN'
+	'Heuchera americana var. americana A35-6 TN'
+	'Heuchera americana var. americana A35-7 TN'
+	'Heuchera americana var. americana A35-8 TN'
+	'Heuchera americana var. americana A35-9 TN'
+	'Heuchera americana var. americana A4-1 GA'
+	'Heuchera americana var. americana A4-2 GA'
+	'Heuchera americana var. americana A4-3 GA'
+	'Heuchera americana var. americana A4-4 GA'
+	'Heuchera americana var. americana A4-5 GA'
+	'Heuchera americana var. americana A56-1 NC'
+	'Heuchera americana var. americana A56-2 NC'
+	'Heuchera americana var. americana A56-3 NC'
+	'Heuchera americana var. americana A56-4 NC'
+	'Heuchera americana var. americana A56-5 NC'
+	'Heuchera americana var. americana A56-6 NC'
+	'Heuchera americana var. americana A56-7 NC'
+	'Heuchera americana var. americana A58-1 NC'
+	'Heuchera americana var. americana A58-2 NC'
+	'Heuchera americana var. americana A58-3 NC'
+	'Heuchera americana var. americana A58-4 NC'
+	'Heuchera americana var. americana A6-2 GA'
+	'Heuchera americana var. americana A6-3 GA'
+	'Heuchera americana var. americana A60-1 NC'
+	'Heuchera americana var. americana A60-2 NC'
+	'Heuchera americana var. americana A60-3 NC'
+	'Heuchera americana var. americana A60-4 NC'
+	'Heuchera americana var. americana A7-1 SC'
+	'Heuchera americana var. americana A7-2 SC'
+	'Heuchera americana var. americana A7-3 SC'
+	'Heuchera americana var. americana A7-4 SC'
+	'Heuchera americana var. americana H214-2 TN'
+	'Heuchera americana var. americana H83-C OH Greene'
+	'Heuchera americana var. americana H86-C OH Knox'
+	'Heuchera americana var. americana H92-1 NC'
+	'Heuchera americana var. americana H92-2 NC'
+	'Heuchera americana var. americana H92-3 NC'
+	'Heuchera americana var. c.f. calycosa A33-1 TN'
+	'Heuchera americana var. c.f. calycosa A33-2 TN'
+	'Heuchera americana var. c.f. calycosa A33-3 TN'
+	'Heuchera americana var. c.f. calycosa A33-4 TN'
+	'Heuchera americana var. c.f. calycosa A33-5 TN'
+	'Heuchera americana var. c.f. calycosa A33-6 TN'
+	'Heuchera americana var. calycosa A28-1 MS'
+	'Heuchera americana var. calycosa A28-2 MS'
+	'Heuchera americana var. calycosa A28-3 MS'
+	'Heuchera americana var. calycosa A28-4 MS'
+	'Heuchera americana var. calycosa A28-5 MS'
+	'Heuchera americana var. calycosa A28-6 MS'
+	'Heuchera americana var. calycosa A28-7 MS'
+	'Heuchera americana var. calycosa A28-8 MS'
+	'Heuchera americana var. calycosa A28-9 MS'
+	'Heuchera americana var. calycosa A29-1 MS'
+	'Heuchera americana var. calycosa A29-10 MS'
+	'Heuchera americana var. calycosa A29-2 MS'
+	'Heuchera americana var. calycosa A29-3 MS'
+	'Heuchera americana var. calycosa A29-4 MS'
+	'Heuchera americana var. calycosa A29-5 MS'
+	'Heuchera americana var. calycosa A29-6 MS'
+	'Heuchera americana var. calycosa A29-7 MS'
+	'Heuchera americana var. calycosa A29-8 MS'
+	'Heuchera americana var. calycosa A29-9 MS'
+	'Heuchera americana var. calycosa A53-1 AL'
+	'Heuchera americana var. calycosa A53-10 AL'
+	'Heuchera americana var. calycosa A53-2 AL'
+	'Heuchera americana var. calycosa A53-3 AL'
+	'Heuchera americana var. calycosa A53-4 AL'
+	'Heuchera americana var. calycosa A53-5 AL'
+	'Heuchera americana var. calycosa A53-6 AL'
+	'Heuchera americana var. calycosa A53-7 AL'
+	'Heuchera americana var. calycosa A53-8 AL'
+	'Heuchera americana var. calycosa A53-9 AL'
+	'Heuchera americana var. calycosa A54-1 AL'
+	'Heuchera americana var. calycosa A54-2 AL'
+	'Heuchera americana var. calycosa A54-3 AL'
+	'Heuchera americana var. heteradenia A55-1 TN'
+	'Heuchera americana var. heteradenia A55-2 TN'
+	'Heuchera americana var. heteradenia A55-3 TN'
+	'Heuchera americana var. heteradenia A55-4 TN'
+	'Heuchera americana var. heteradenia A55-5 TN'
+	'Heuchera americana var. heteradenia A55-6 TN'
+	'Heuchera americana var. heteradenia A62-1 TN'
+	'Heuchera americana var. heteradenia A62-2 TN'
+	'Heuchera americana var. heteradenia A62-3 TN'
+	'Heuchera americana var. heteradenia A63-1 TN'
+	'Heuchera americana var. heteradenia A63-10 TN'
+	'Heuchera americana var. heteradenia A63-2 TN'
+	'Heuchera americana var. heteradenia A63-3 TN'
+	'Heuchera americana var. heteradenia A63-4 TN'
+	'Heuchera americana var. heteradenia A63-5 TN'
+	'Heuchera americana var. heteradenia A63-6 TN'
+	'Heuchera americana var. heteradenia A63-7 TN'
+	'Heuchera americana var. heteradenia A63-8 TN'
+	'Heuchera americana var. heteradenia A63-9 TN'
+	'Heuchera americana var. hirsuticaulis A13-1 IL'
+	'Heuchera americana var. hirsuticaulis A13-2 IL'
+	'Heuchera americana var. hirsuticaulis A13-3 IL'
+	'Heuchera americana var. hirsuticaulis A13-4 IL'
+	'Heuchera americana var. hirsuticaulis A13-5 IL'
+	'Heuchera americana var. hirsuticaulis A13-6 IL'
+	'Heuchera americana var. hirsuticaulis A13-7 IL'
+	'Heuchera americana var. hirsuticaulis A13-8 IL'
+	'Heuchera americana var. hirsuticaulis A13-9 IL'
+	'Heuchera americana var. hirsuticaulis A32-1 TN'
+	'Heuchera americana var. hirsuticaulis A32-10 TN'
+	'Heuchera americana var. hirsuticaulis A32-2 TN'
+	'Heuchera americana var. hirsuticaulis A32-3 TN'
+	'Heuchera americana var. hirsuticaulis A32-4 TN'
+	'Heuchera americana var. hirsuticaulis A32-5 TN'
+	'Heuchera americana var. hirsuticaulis A32-6 TN'
+	'Heuchera americana var. hirsuticaulis A32-7 TN'
+	'Heuchera americana var. hirsuticaulis A32-8 TN'
+	'Heuchera americana var. hirsuticaulis A32-9 TN'
+	'Heuchera americana var. hirsuticaulis A38-1 KY'
+	'Heuchera americana var. hirsuticaulis A38-2 KY'
+	'Heuchera americana var. hirsuticaulis A39-1 KY'
+	'Heuchera americana var. hirsuticaulis A39-10 KY'
+	'Heuchera americana var. hirsuticaulis A39-11 KY'
+	'Heuchera americana var. hirsuticaulis A39-2 KY'
+	'Heuchera americana var. hirsuticaulis A39-3 KY'
+	'Heuchera americana var. hirsuticaulis A39-4 KY'
+	'Heuchera americana var. hirsuticaulis A39-5 KY'
+	'Heuchera americana var. hirsuticaulis A39-6 KY'
+	'Heuchera americana var. hirsuticaulis A39-7 KY'
+	'Heuchera americana var. hirsuticaulis A39-8 KY'
+	'Heuchera americana var. hirsuticaulis A39-9 KY'
+	'Heuchera americana var. hirsuticaulis A40-2 IL'
+	'Heuchera americana var. hirsuticaulis A40-3 IL'
+	'Heuchera americana var. hirsuticaulis A41-1 MO'
+	'Heuchera americana var. hirsuticaulis A41-2 MO'
+	'Heuchera americana var. hirsuticaulis A41-3 MO'
+	'Heuchera americana var. hirsuticaulis A45-1 AR'
+	'Heuchera americana var. hirsuticaulis A45-10 AR'
+	'Heuchera americana var. hirsuticaulis A45-2 AR'
+	'Heuchera americana var. hirsuticaulis A45-3 AR'
+	'Heuchera americana var. hirsuticaulis A45-4 AR'
+	'Heuchera americana var. hirsuticaulis A45-5 AR'
+	'Heuchera americana var. hirsuticaulis A45-6 AR'
+	'Heuchera americana var. hirsuticaulis A45-7 AR'
+	'Heuchera americana var. hirsuticaulis A45-8 AR'
+	'Heuchera americana var. hirsuticaulis A45-9 AR'
+	'Heuchera americana var. hirsuticaulis A46-1 AR'
+	'Heuchera americana var. hirsuticaulis A46-2 AR'
+	'Heuchera americana var. hirsuticaulis A46-3 AR'
+	'Heuchera americana var. hirsuticaulis A46-4 AR'
+	'Heuchera americana var. hirsuticaulis A46-5 AR'
+	'Heuchera americana var. hirsuticaulis A46-6 AR'
+	'Heuchera americana var. hirsuticaulis A46-7 AR'
+	'Heuchera americana var. hirsuticaulis A46-8 AR'
+	'Heuchera americana var. hirsuticaulis A47-1 AR'
+	'Heuchera americana var. hirsuticaulis A47-2 AR'
+	'Heuchera americana var. hirsuticaulis A47-3 AR'
+	'Heuchera americana var. hirsuticaulis A47-4 AR'
+	'Heuchera americana var. hirsuticaulis A47-5 AR'
+	'Heuchera americana var. hirsuticaulis A49-1 AR'
+	'Heuchera americana var. hirsuticaulis A49-10 AR'
+	'Heuchera americana var. hirsuticaulis A49-11 AR'
+	'Heuchera americana var. hirsuticaulis A49-12 AR'
+	'Heuchera americana var. hirsuticaulis A49-2 AR'
+	'Heuchera americana var. hirsuticaulis A49-3 AR'
+	'Heuchera americana var. hirsuticaulis A49-4 AR'
+	'Heuchera americana var. hirsuticaulis A49-5 AR'
+	'Heuchera americana var. hirsuticaulis A49-6 AR'
+	'Heuchera americana var. hirsuticaulis A49-7 AR'
+	'Heuchera americana var. hirsuticaulis A49-8 AR'
+	'Heuchera americana var. hirsuticaulis A49-9 AR'
+	'Heuchera americana var. hirsuticaulis A9-1 IN'
+	'Heuchera americana var. hirsuticaulis A9-3 IN'
+	'Heuchera americana var. hirsuticaulis A9-4 IN'
+	'Heuchera americana var. hirsuticaulis H177-2 IL'
+	'Heuchera americana var. hirsuticaulis H59-1 MO'
+	'Heuchera americana var. hirsuticaulis H59-2 MO'
+	'Heuchera americana var. hirsuticaulis H60-1 MO'
+	'Heuchera americana var. hirsuticaulis H60-2 MO'
+	'Heuchera americana var. hirsuticaulis H60-3 MO'
+	'Heuchera americana var. hirsuticaulis H61-1 MO'
+	'Heuchera americana var. hirsuticaulis H61-2 MO'
+	'Heuchera americana var. hirsuticaulis H61-3 MO'
+	'Heuchera americana var. hirsuticaulis H62-1 MO'
+	'Heuchera americana var. hirsuticaulis H62-2 MO'
+	'Heuchera americana var. hirsuticaulis H62-4 MO'
+	'Heuchera americana var. hirsuticaulis H62-5 MO'
+	'Heuchera americana var. hirsuticaulis H62-6 MO'
+	'Heuchera americana var. hispida A59-1 NC McDowell'
+	'Heuchera americana var. hispida A59-2 NC McDowell'
+	'Heuchera americana var. hispida A59-3 NC McDowell'
+	'Heuchera americana var. hispida A59-4 NC McDowell'
+	'Heuchera americana var. hispida A59-5 NC McDowell'
+	'Heuchera americana var. hispida A59-6 NC McDowell'
+	'Heuchera americana var. hispida A59-7 NC McDowell'
+	'Heuchera americana var. hispida A59-8 NC McDowell'
+	'Heuchera americana var. hispida A59-9 NC McDowell'
+	'Heuchera americana var. hispida H101-2 VA Rockbridge'
+	'Heuchera americana var. hispida H101-3 VA Rockbridge'
+	'Heuchera americana var. hispida H102-1 VA Nelson'
+	'Heuchera americana var. hispida H102-2 VA Nelson'
+	'Heuchera americana var. hispida H102-3 VA Nelson'
+	'Heuchera americana var. hispida H103-1 VA Augusta'
+	'Heuchera americana var. hispida H103-2 VA Augusta'
+	'Heuchera americana var. hispida H104-1 WV Summers'
+	'Heuchera americana var. hispida H104-2 WV Summers'
+	'Heuchera bracteata H164-1'
+	'Heuchera caroliniana A50-1 SC'
+	'Heuchera caroliniana A50-2 SC'
+	'Heuchera caroliniana A50-4 SC'
+	'Heuchera caroliniana H216-1 SC'
+	'Heuchera caroliniana H216-2 SC'
+	'Heuchera cylindrica var. glabella H115-1 MT Lewis and Clark'
+	'Heuchera elegans H44-1 CA'
+	'Heuchera glabra H137-2 OR'
+	'Heuchera glomerulata A22-1 AZ'
+	'Heuchera inconstans I90-C AZ Coconino'
+	'Heuchera longiflora var. aceroides L1-1 NC'
+	'Heuchera longiflora var. aceroides L1-3 NC'
+	'Heuchera longiflora var. aceroides L3-1 NC'
+	'Heuchera longiflora var. aceroides L3-2 NC'
+	'Heuchera longiflora var. longiflora FL-25 VA'
+	'Heuchera longiflora var. longiflora FL-26 AL'
+	'Heuchera longiflora var. longiflora FL-27 AL'
+	'Heuchera longiflora var. longiflora L14-1 KY'
+	'Heuchera longiflora var. longiflora L14-2 KY'
+	'Heuchera longiflora var. longiflora L20-1 KY'
+	'Heuchera longiflora var. longiflora L20-2 KY'
+	'Heuchera longiflora var. longiflora L6-1 VA'
+	'Heuchera longiflora var. longiflora L6-2 VA'
+	'Heuchera longiflora var. longiflora L9-2 VA'
+	'Heuchera missouriensis A37-5 KY'
+	'Heuchera novomexicana H24-1 NM'
+	'Heuchera parviflora var. parviflora H170-3 OH'
+	'Heuchera parvifolia H107-1 WY'
+	'Heuchera puberula H181-1 MO'
+	'Heuchera pubescens H100-1 VA Floyd/Patrick'
+	'Heuchera pubescens H100-10 VA Floyd/Patrick'
+	'Heuchera pubescens H100-7 VA Floyd/Patrick'
+	'Heuchera pubescens H96-1 NC Surry'
+	'Heuchera pubescens H96-2 NC Surry'
+	'Heuchera pubescens H96-3 NC Surry'
+	'Heuchera richardsonii A15-10 MO'
+	'Heuchera richardsonii A15-11 MO'
+	'Heuchera richardsonii A15-12 MO'
+	'Heuchera richardsonii A15-13 MO'
+	'Heuchera richardsonii A15-15 MO'
+	'Heuchera richardsonii A15-2 MO'
+	'Heuchera richardsonii A15-3 MO'
+	'Heuchera richardsonii A15-4 MO'
+	'Heuchera richardsonii A15-5 MO'
+	'Heuchera richardsonii A15-6 MO'
+	'Heuchera richardsonii A15-7 MO'
+	'Heuchera richardsonii A15-8 MO'
+	'Heuchera richardsonii A15-9 MO'
+	'Heuchera richardsonii A16-1 WS'
+	'Heuchera richardsonii A16-10 WS'
+	'Heuchera richardsonii A16-11 WS'
+	'Heuchera richardsonii A16-12 WS'
+	'Heuchera richardsonii A16-2 WS'
+	'Heuchera richardsonii A16-3 WS'
+	'Heuchera richardsonii A16-4 WS'
+	'Heuchera richardsonii A16-6 WS'
+	'Heuchera richardsonii A16-8 WS'
+	'Heuchera richardsonii A16-9 WS'
+	'Heuchera richardsonii A17-1 WS'
+	'Heuchera richardsonii A17-2 WS'
+	'Heuchera richardsonii A17-3 WS'
+	'Heuchera richardsonii A17-4 WS'
+	'Heuchera richardsonii A17-5 WS'
+	'Heuchera richardsonii A17-6 WS'
+	'Heuchera richardsonii A17-7 WS'
+	'Heuchera richardsonii A17-8 WS'
+	'Heuchera richardsonii A17-9 WS'
+	'Heuchera richardsonii A21-1 MN'
+	'Heuchera richardsonii A21-10 MN'
+	'Heuchera richardsonii A21-11 MN'
+	'Heuchera richardsonii A21-2 MN'
+	'Heuchera richardsonii A21-3 MN'
+	'Heuchera richardsonii A21-4 MN'
+	'Heuchera richardsonii A21-5 MN'
+	'Heuchera richardsonii A21-6 MN'
+	'Heuchera richardsonii A21-7 MN'
+	'Heuchera richardsonii A21-8 MN'
+	'Heuchera richardsonii A21-9 MN'
+	'Heuchera richardsonii A42-1 MO'
+	'Heuchera richardsonii A42-2 MO'
+	'Heuchera richardsonii A42-3 MO'
+	'Heuchera richardsonii A42-4 MO'
+	'Heuchera richardsonii A43-1 IL'
+	'Heuchera richardsonii A43-2 IL'
+	'Heuchera richardsonii A43-3 IL'
+	'Heuchera richardsonii A44-1 MO'
+	'Heuchera richardsonii A44-10 MO'
+	'Heuchera richardsonii A44-2 MO'
+	'Heuchera richardsonii A44-3 MO'
+	'Heuchera richardsonii A44-4 MO'
+	'Heuchera richardsonii A44-5 MO'
+	'Heuchera richardsonii A44-6 MO'
+	'Heuchera richardsonii A44-7 MO'
+	'Heuchera richardsonii A44-8 MO'
+	'Heuchera richardsonii A44-9 MO'
+	'Heuchera richardsonii H105-1 SD'
+	'Heuchera richardsonii H106-1 SD'
+	'Heuchera richardsonii H106-2 SD'
+	'Heuchera richardsonii H166-1'
+	'Heuchera richardsonii H166-2 IA'
+	'Heuchera richardsonii H167-1 IL'
+	'Heuchera richardsonii H167-2 IL'
+	'Heuchera sanguinea A26-1 AZ'
+	'Heuchera villosa var. arkansana H192-1'
+	'Heuchera villosa var. macrorhiza A30-1 MS'
+	'Heuchera villosa var. villosa A5-1 GA'
+	'Heuchera woodsiaphila H23-1 NM'
+	'Heuchera wootonii H22-1 NM'
+	Heuchera_alba_I173_WV_Grant
+	Heuchera_alba_I174_WV_Grant
+	Heuchera_alba_I175_WV_Pocahontas
+	Heuchera_alba_I176_WV_Pendleton
+	Heuchera_alba_I178_WV_Grant
+	Heuchera_alba_I179_WV_Pendleton
+	Heuchera_alba_I180_WV_Pendleton
+	Heuchera_alba_I67_WV_Highland
+	'Heuchera_americana_var._americana_A36_KY'
+	'Heuchera_americana_var._americana_A57_NC'
+	'Heuchera_americana_var._americana_A8_GA'
+	'Heuchera_americana_var._americana_E1419_SC_Cherokee'
+	'Heuchera_americana_var._americana_E1421_SC_Dorchester'
+	'Heuchera_americana_var._americana_E1423_SC_Fairfield'
+	'Heuchera_americana_var._americana_E1472_TN_Fentress'
+	'Heuchera_americana_var._americana_E1486_TN_Swain'
+	'Heuchera_americana_var._americana_E1492_VA_Buckingham'
+	'Heuchera_americana_var._americana_E1494_VA_Charles_City'
+	'Heuchera_americana_var._americana_E1495_VA_Fairfax'
+	'Heuchera_americana_var._americana_E1496_VA_Fluvanna'
+	'Heuchera_americana_var._americana_E1498_VA_Giles'
+	'Heuchera_americana_var._americana_E1499_VA_Goochland'
+	'Heuchera_americana_var._americana_E1500_VA_Halifax'
+	'Heuchera_americana_var._americana_E1502_VA_Halifax'
+	'Heuchera_americana_var._americana_E1503_VA_Hanover'
+	'Heuchera_americana_var._americana_E1505_VA_Isle_of_Wright'
+	'Heuchera_americana_var._americana_E1506_VA_James_City'
+	'Heuchera_americana_var._americana_E1507_VA_New_Kent'
+	'Heuchera_americana_var._americana_E1508_VA_Page'
+	'Heuchera_americana_var._americana_E1510_VA_Powhatan'
+	'Heuchera_americana_var._americana_E1513_VA_Washington'
+	'Heuchera_americana_var._americana_E1542_GA_Screven'
+	'Heuchera_americana_var._americana_E1544_TN_Polk'
+	'Heuchera_americana_var._americana_E1683_OH_Jefferson'
+	'Heuchera_americana_var._americana_E1685_OH_Noble'
+	'Heuchera_americana_var._americana_E1686_OH_Portage'
+	'Heuchera_americana_var._americana_E1687_OK_McCurtain'
+	'Heuchera_americana_var._americana_E1688_PA_Bucks'
+	'Heuchera_americana_var._americana_E1691_PA_Westmoreland'
+	'Heuchera_americana_var._americana_E1692_TX_Bowie'
+	'Heuchera_americana_var._americana_E1709_OH_Vinton'
+	'Heuchera_americana_var._americana_E1853_NC_Buncombe'
+	'Heuchera_americana_var._americana_E1854_NC_Burke'
+	'Heuchera_americana_var._americana_E1855_NC_Caswell'
+	'Heuchera_americana_var._americana_E1856_NC_Chatham'
+	'Heuchera_americana_var._americana_E1857_NC_Durham'
+	'Heuchera_americana_var._americana_E1859_NC_Graham'
+	'Heuchera_americana_var._americana_E1860_NC_Granville'
+	'Heuchera_americana_var._americana_E1863_NC_Haywood'
+	'Heuchera_americana_var._americana_E1866_NC_Hertford'
+	'Heuchera_americana_var._americana_E1868_NC_Lee'
+	'Heuchera_americana_var._americana_E1869_NC_Lee'
+	'Heuchera_americana_var._americana_E1870_NC_Lee'
+	'Heuchera_americana_var._americana_E1871_NC_Lee'
+	'Heuchera_americana_var._americana_E1873_NC_Macon'
+	'Heuchera_americana_var._americana_E1874_NC_Madison'
+	'Heuchera_americana_var._americana_E1875_NC_Madison'
+	'Heuchera_americana_var._americana_E1876_NC_Martin'
+	'Heuchera_americana_var._americana_E1879_NC_Mitchell'
+	'Heuchera_americana_var._americana_E1903_NC_Wilkes'
+	'Heuchera_americana_var._americana_E1916_NC_Moore'
+	'Heuchera_americana_var._americana_E36_SC_Newberry'
+	'Heuchera_americana_var._americana_E439_KY_Henry'
+	'Heuchera_americana_var._americana_E440_TN_Decatur'
+	'Heuchera_americana_var._americana_E505_GA_Burke'
+	'Heuchera_americana_var._americana_E506_VA_Amelia'
+	'Heuchera_americana_var._americana_E507_NC'
+	'Heuchera_americana_var._americana_E510_NC_Durham'
+	'Heuchera_americana_var._americana_E511_AL_Fayette'
+	'Heuchera_americana_var._americana_E516_NC_Stanly'
+	'Heuchera_americana_var._americana_E517_KY_Madison'
+	'Heuchera_americana_var._americana_E519_GA_McCormick'
+	'Heuchera_americana_var._americana_E524_TN_Campbell'
+	'Heuchera_americana_var._americana_H246_OH'
+	'Heuchera_americana_var._americana_H70'
+	'Heuchera_americana_var._americana_H71_OH'
+	'Heuchera_americana_var._americana_H95_NC'
+	'Heuchera_americana_var._americana_I20_VA'
+	'Heuchera_americana_var._brevipetala_E1475_TN_Grundy'
+	'Heuchera_americana_var._brevipetala_E1519_GA_Bulloch'
+	'Heuchera_americana_var._brevipetala_E1520_LA_Caddo'
+	'Heuchera_americana_var._brevipetala_E1679_KY_Greenup'
+	'Heuchera_americana_var._brevipetala_E490_TX_Bowie'
+	'Heuchera_americana_var._brevipetala_E492_TX_Bowie'
+	'Heuchera_americana_var._brevipetala_E509_AR_Cleburne'
+	'Heuchera_americana_var._brevipetala_I2_OH'
+	'Heuchera_americana_var._calycosa_E1579_AL_Cleburne'
+	'Heuchera_americana_var._calycosa_E502_AL_Cleburne'
+	'Heuchera_americana_var._calycosa_E514_GA_Floyd'
+	'Heuchera_americana_var._calycosa_E515_TN_Grainger'
+	'Heuchera_americana_var._calycosa_E518_TN_Blount'
+	'Heuchera_americana_var._heteradenia_I70'
+	'Heuchera_americana_var._hirsuticaulis_A14_IL'
+	'Heuchera_americana_var._hirsuticaulis_A31_MS'
+	'Heuchera_americana_var._hirsuticaulis_A40_IL'
+	'Heuchera_americana_var._hirsuticaulis_A48_AR'
+	'Heuchera_americana_var._hirsuticaulis_E1526_AR_Franklin'
+	'Heuchera_americana_var._hirsuticaulis_E1531_AR_Randolph'
+	'Heuchera_americana_var._hirsuticaulis_E1537_KY_Livingston'
+	'Heuchera_americana_var._hirsuticaulis_E1539_KY_Trigg'
+	'Heuchera_americana_var._hirsuticaulis_E1540_KY_Trigg'
+	'Heuchera_americana_var._hirsuticaulis_E1580_AR_Izard'
+	'Heuchera_americana_var._hirsuticaulis_E1680_IL_Calhoun'
+	'Heuchera_americana_var._hirsuticaulis_E1681_MO_Jefferson'
+	'Heuchera_americana_var._hirsuticaulis_E1693_IL_Alexander'
+	'Heuchera_americana_var._hirsuticaulis_E1697_IL_Johnson'
+	'Heuchera_americana_var._hirsuticaulis_E1698_IL_Saint_Clair'
+	'Heuchera_americana_var._hirsuticaulis_E1702_IN_Howard'
+	'Heuchera_americana_var._hirsuticaulis_E1704_MO_Boone'
+	'Heuchera_americana_var._hirsuticaulis_E1705_MO_Shannon'
+	'Heuchera_americana_var._hirsuticaulis_E1707_MO_Saint_Louis'
+	'Heuchera_americana_var._hirsuticaulis_E1708_MO_Taney'
+	'Heuchera_americana_var._hirsuticaulis_E1711_OK_Sequoyah'
+	'Heuchera_americana_var._hirsuticaulis_E441_TN_Hardeman'
+	'Heuchera_americana_var._hirsuticaulis_E442_TN_McNairy'
+	'Heuchera_americana_var._hirsuticaulis_E498_AR_Yell'
+	'Heuchera_americana_var._hirsuticaulis_E499_AR_Garland'
+	'Heuchera_americana_var._hirsuticaulis_E500_AR_Howard'
+	'Heuchera_americana_var._hirsuticaulis_E501_AR_Faulkner'
+	'Heuchera_americana_var._hirsuticaulis_E503_MO_Jefferson'
+	'Heuchera_americana_var._hirsuticaulis_E513_MO_Saint_Genevieve'
+	'Heuchera_americana_var._hispida_E1547_VA_Augusta'
+	'Heuchera_americana_var._hispida_E1550_VA_Botetourt'
+	'Heuchera_americana_var._hispida_E1551_VA_Botetourt'
+	'Heuchera_americana_var._hispida_E1554_VA_Craig'
+	'Heuchera_americana_var._hispida_E1556_VA_Craig'
+	'Heuchera_americana_var._hispida_E1557_VA_Fauquier'
+	'Heuchera_americana_var._hispida_E1559_VA_Giles'
+	'Heuchera_americana_var._hispida_E1561_VA_Giles'
+	'Heuchera_americana_var._hispida_E1562_VA_Grayson'
+	'Heuchera_americana_var._hispida_E1563_VA_Loudoun'
+	'Heuchera_americana_var._hispida_E1564_VA_Montgomery'
+	'Heuchera_americana_var._hispida_E1565_VA_Montgomery'
+	'Heuchera_americana_var._hispida_E1566_VA_Pittsylvania'
+	'Heuchera_americana_var._hispida_E1567_VA_Pulaski'
+	'Heuchera_americana_var._hispida_E1570_VA_Tazewell'
+	'Heuchera_americana_var._hispida_E1573_MD_Washington'
+	'Heuchera_americana_var._hispida_E1574_WV_Greenbrier'
+	'Heuchera_americana_var._hispida_E1575_WV_Monroe'
+	'Heuchera_americana_var._hispida_E1578_AL_Clay'
+	'Heuchera_americana_var._hispida_E1926_NC_Alleghany'
+	'Heuchera_americana_var._hispida_E1927_NC_Alleghany'
+	'Heuchera_americana_var._hispida_E1928_NC_Surry'
+	Heuchera_caroliniana_E1911_NC_Iredell
+	Heuchera_caroliniana_E1915_NC_Mecklenburg
+	Heuchera_caroliniana_E1921_NC_Stanly
+	Heuchera_caroliniana_E1924_NC_Union
+	Heuchera_caroliniana_E35_NC_Stanly
+	Heuchera_eastwoodiae_H35_AZ
+	Heuchera_inconstans_H33_AZ
+	'Heuchera_longipetala_var._longipetala_I21'
+	Heuchera_maxima_I6
+	'Heuchera_mexicana_var._mexicana_I51'
+	'Heuchera_micrantha_var._macropetala_H146_OR'
+	Heuchera_pubescens_E1497_VA_Franklin
+	Heuchera_pubescens_E1596_VA_Bath
+	Heuchera_pubescens_E1598_VA_Craig
+	Heuchera_pubescens_E1599_VA_Franklin
+	Heuchera_pubescens_E1600_VA_Franklin
+	Heuchera_pubescens_E1601_VA_Montgomery
+	Heuchera_pubescens_E1936_NC_Stokes
+	Heuchera_richardsonii_E1780_IA_Cedar
+	Heuchera_richardsonii_E1781_IA_Jackson
+	Heuchera_richardsonii_E1782_IA_Jackson
+	Heuchera_richardsonii_E1783_IA_Lyon
+	Heuchera_richardsonii_E1784
+	Heuchera_richardsonii_E1785_IA_Pocahontas
+	Heuchera_richardsonii_E1786_IA_Story
+	Heuchera_richardsonii_E1787_IA_Story
+	Heuchera_richardsonii_E1789_WI_Crawford
+	Heuchera_richardsonii_E1790_WI_Rock
+	Heuchera_richardsonii_E1791_WI_Rock
+	Heuchera_richardsonii_E1792_WI_Rock
+	Heuchera_richardsonii_E1793_WI_Rock
+	Heuchera_richardsonii_E1794_CO_El_Paso
+	Heuchera_richardsonii_E1795_IN_Fulton
+	Heuchera_richardsonii_E1796_IN_Porter
+	Heuchera_richardsonii_E1797_KS_Cherokee
+	Heuchera_richardsonii_E1798_MN_Clay
+	Heuchera_richardsonii_E1799_MO_Andrew
+	Heuchera_richardsonii_E1800_MO_Dade
+	Heuchera_richardsonii_E1801_MO_Sainte_Geneveive
+	Heuchera_richardsonii_E1802_ND_Golden_Valley
+	Heuchera_richardsonii_E1805_SD_Custer
+	Heuchera_richardsonii_E542_IL_McHenry
+	Heuchera_richardsonii_E639_Saskatchewan_Wallwort
+	Heuchera_richardsonii_E640_IL_Peoria
+	Heuchera_richardsonii_E641_IL_Will
+	Heuchera_richardsonii_I58
+	Heuchera_richardsonii_I65_MI
+	Heuchera_richardsonii_I82_Alberta
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((((((((((((((((((Heuchera_alba_I173_WV_Grant[&!color=#000000]:0.021361,Heuchera_alba_I67_WV_Highland[&!color=#000000]:0.021781)[&label=41,!color=#000000]:0.004867,('Heuchera alba E306-2 WV Grant'[&!color=#000000]:0.022759,'Heuchera alba H63-1 WV Pendleton'[&!color=#000000]:0.02264)[&label=19,!color=#000000]:0.003932)[&label=16,!color=#000000]:0.001877,('Heuchera alba H63-2 WV Pendleton'[&!color=#000000]:0.018922,Heuchera_alba_I178_WV_Grant[&!color=#000000]:0.022353)[&label=42,!color=#000000]:0.004552)[&label=14,!color=#000000]:0.001774,(Heuchera_alba_I179_WV_Pendleton[&!color=#000000]:0.021151,Heuchera_alba_I174_WV_Grant[&!color=#000000]:0.025417)[&label=55,!color=#000000]:0.004982)[&label=54,!color=#000000]:0.002863,((Heuchera_alba_I176_WV_Pendleton[&!color=#000000]:0.021564,Heuchera_alba_I180_WV_Pendleton[&!color=#000000]:0.025864)[&label=65,!color=#000000]:0.003058,('Heuchera alba H64-1 WV Grant'[&!color=#000000]:0.018733,'Heuchera alba H64-2 WV Grant'[&!color=#000000]:0.018522)[&label=87,!color=#000000]:0.004688)[&label=41,!color=#000000]:0.002811)[&label=99,!cartoon={12,0.002572999999999992},!color=#000000]:0.004273,('Heuchera_americana_var._hispida_E1563_VA_Loudoun'[&!color=#ffcccc]:0.025805,'Heuchera_americana_var._hispida_E1573_MD_Washington'[&!color=#ffcccc]:0.026594)[&label=25,!color=#ffcccc]:0.003452)[&label=13]:0.002761,((((('Heuchera americana var. hispida H102-3 VA Nelson'[&!color=#ff9999]:0.014702,'Heuchera americana var. hispida H102-2 VA Nelson'[&!color=#ff9999]:0.01198)[&label=100,!color=#ff9999]:0.006162,'Heuchera americana var. hispida H102-1 VA Nelson'[&!color=#ff9999]:0.016646)[&label=100,!color=#ff9999]:0.005876,'Heuchera_americana_var._hispida_E1547_VA_Augusta'[&!color=#ff9999]:0.029256)[&label=42,!color=#ff9999]:0.002817,('Heuchera americana var. hispida H101-2 VA Rockbridge'[&!color=#ff9999]:0.021187,'Heuchera americana var. hispida H101-3 VA Rockbridge'[&!color=#ff9999]:0.022105)[&label=100,!color=#ff9999]:0.008097)[&label=13,!color=#ff9999]:0.00291,('Heuchera americana var. hispida H103-2 VA Augusta'[&!color=#ff9999]:0.025921,'Heuchera americana var. hispida H103-1 VA Augusta'[&!color=#ff9999]:0.020842)[&label=33,!color=#ff9999]:0.004615)[&label=97,!cartoon={8,0.0},!color=#ff9999]:0.007886)[&label=4]:0.002967,(Heuchera_pubescens_E1596_VA_Bath:0.029109,Heuchera_alba_I175_WV_Pocahontas:0.025091)[&label=65]:0.005496)[&label=23]:0.00281,(('Heuchera_americana_var._americana_E1508_VA_Page'[&!color=#ff9999]:0.019934,'Heuchera_americana_var._americana_E1495_VA_Fairfax'[&!color=#ff9999]:0.024702)[&label=67,!color=#ff9999]:0.002938,'Heuchera_americana_var._hispida_E1557_VA_Fauquier'[&!color=#ff9999]:0.028264)[&label=28,!cartoon={3,0.017577999999999983},!color=#ff9999]:0.002804)[&label=17]:0.001881,((('Heuchera_americana_var._americana_E1499_VA_Goochland'[&!color=#ff9999]:0.025194,'Heuchera_americana_var._hispida_E1551_VA_Botetourt'[&!color=#ff9999]:0.019987)[&label=65,!color=#ff9999]:0.003766,('Heuchera_americana_var._hispida_E1554_VA_Craig'[&!color=#ff9999]:0.023805,Heuchera_pubescens_E1601_VA_Montgomery[&!color=#ff9999]:0.02503)[&label=33,!color=#ff9999]:0.004569)[&label=12,!color=#ff9999]:0.002773,(('Heuchera_americana_var._hispida_E1550_VA_Botetourt'[&!color=#ff9999]:0.021119,Heuchera_pubescens_E1598_VA_Craig[&!color=#ff9999]:0.02695)[&label=12,!color=#ff9999]:0.003893,'Heuchera_americana_var._hispida_E1575_WV_Monroe'[&!color=#ff9999]:0.022743)[&label=3,!color=#ff9999]:0.004022)[&label=9,!cartoon={7,0.011577000000000004},!color=#ff9999]:0.004085)[&label=0]:0.002057,((((('Heuchera_americana_var._americana_E1506_VA_James_City'[&!color=#ff9999]:0.019012,'Heuchera_americana_var._americana_E1866_NC_Hertford'[&!color=#ff9999]:0.020236)[&label=33,!color=#ff9999]:0.003917,'Heuchera_americana_var._hispida_E1928_NC_Surry'[&!color=#ff9999]:0.027579)[&label=17,!color=#ff9999]:0.004356,'Heuchera_americana_var._americana_E506_VA_Amelia'[&!color=#ff9999]:0.026388)[&label=1,!color=#ff9999]:0.002803,('Heuchera_americana_var._americana_E1494_VA_Charles_City'[&!color=#ff9999]:0.018445,'Heuchera_americana_var._americana_E1507_VA_New_Kent'[&!color=#ff9999]:0.025347)[&label=29,!color=#ff9999]:0.00418)[&label=1,!color=#ff9999]:0.00206,((('Heuchera_americana_var._americana_E1492_VA_Buckingham'[&!color=#ff9999]:0.021525,'Heuchera_americana_var._americana_E1510_VA_Powhatan'[&!color=#ff9999]:0.019928)[&label=68,!color=#ff9999]:0.003784,'Heuchera_americana_var._americana_E1496_VA_Fluvanna'[&!color=#ff9999]:0.025844)[&label=20,!color=#ff9999]:0.002513,'Heuchera_americana_var._hispida_E1566_VA_Pittsylvania'[&!color=#ff9999]:0.03041)[&label=7,!color=#ff9999]:0.00316)[&label=3,!cartoon={10,0.011392999999999986},!color=#ff9999]:0.004393)[&label=0]:0.002597,(((((((Heuchera_pubescens_E1600_VA_Franklin[&!color=#003333]:0.021457,Heuchera_pubescens_E1599_VA_Franklin[&!color=#003333]:0.022252)[&label=62,!color=#003333]:0.005552,'Heuchera pubescens H100-10 VA Floyd/Patrick'[&!color=#003333]:0.018109)[&label=23,!color=#003333]:0.003159,Heuchera_pubescens_E1497_VA_Franklin[&!color=#003333]:0.018105)[&label=17,!color=#003333]:0.002459,(('Heuchera pubescens H100-7 VA Floyd/Patrick'[&!color=#003333]:0.015682,'Heuchera pubescens H100-1 VA Floyd/Patrick'[&!color=#003333]:0.01558)[&label=100,!color=#003333]:0.008588,Heuchera_pubescens_E1936_NC_Stokes[&!color=#003333]:0.024547)[&label=41,!color=#003333]:0.003271)[&label=12,!color=#003333]:0.003223,(('Heuchera pubescens H96-2 NC Surry'[&!color=#003333]:0.017681,'Heuchera pubescens H96-3 NC Surry'[&!color=#003333]:0.021139)[&label=100,!color=#003333]:0.006086,'Heuchera pubescens H96-1 NC Surry'[&!color=#003333]:0.02183)[&label=100,!color=#003333]:0.007273)[&label=19,!color=#003333]:0.002905,((('Heuchera_americana_var._hispida_E1565_VA_Montgomery'[&!color=#003333]:0.02626,'Heuchera_americana_var._hispida_E1561_VA_Giles'[&!color=#003333]:0.020355)[&label=33,!color=#003333]:0.004157,('Heuchera_americana_var._hispida_E1556_VA_Craig'[&!color=#003333]:0.018427,'Heuchera_americana_var._americana_E1498_VA_Giles'[&!color=#003333]:0.027827)[&label=81,!color=#003333]:0.004006)[&label=22,!color=#003333]:0.00433,('Heuchera_americana_var._hispida_E1567_VA_Pulaski'[&!color=#003333]:0.0298,'Heuchera_americana_var._hispida_E1564_VA_Montgomery'[&!color=#003333]:0.022677)[&label=30,!color=#003333]:0.003957)[&label=3,!color=#003333]:0.001896)[&label=4,!color=#003333]:0.002658,'Heuchera_americana_var._hispida_E1574_WV_Greenbrier'[&!color=#003333]:0.027471)[&label=0,!cartoon={17,0.010786999999999991},!color=#003333]:0.002186)[&label=1]:0.001843,((('Heuchera_americana_var._americana_E1903_NC_Wilkes'[&!color=#ff9999]:0.025441,'Heuchera_americana_var._americana_E1513_VA_Washington'[&!color=#ff9999]:0.028612)[&label=13,!color=#ff9999]:0.002678,'Heuchera_americana_var._americana_E1503_VA_Hanover'[&!color=#ff9999]:0.027596)[&label=3,!color=#ff9999]:0.002293,(('Heuchera americana var. hispida H104-1 WV Summers'[&!color=#ff9999]:0.023865,'Heuchera americana var. hispida H104-2 WV Summers'[&!color=#ff9999]:0.023516)[&label=100,!color=#ff9999]:0.005457,'Heuchera_americana_var._hispida_E1559_VA_Giles'[&!color=#ff9999]:0.023736)[&label=39,!color=#ff9999]:0.002357)[&label=10,!cartoon={6,0.021177},!color=#ff9999]:0.002264)[&label=6]:0.003464,((('Heuchera_americana_var._hispida_E1562_VA_Grayson'[&!color=#ff9999]:0.022285,'Heuchera_americana_var._hispida_E1926_NC_Alleghany'[&!color=#ff9999]:0.023469)[&label=74,!color=#ff9999]:0.004096,('Heuchera_americana_var._hispida_E1927_NC_Alleghany'[&!color=#ff9999]:0.031207,'Heuchera_americana_var._americana_E1854_NC_Burke'[&!color=#ff9999]:0.020874)[&label=87,!color=#ff9999]:0.005696)[&label=52,!color=#ff9999]:0.003415,((('Heuchera americana var. americana A60-3 NC'[&!color=#ff9999]:0.016648,'Heuchera americana var. americana A60-1 NC'[&!color=#ff9999]:0.019868)[&label=100,!color=#ff9999]:0.00758,'Heuchera americana var. americana A60-2 NC'[&!color=#ff9999]:0.022286)[&label=94,!color=#ff9999]:0.005002,'Heuchera americana var. americana A60-4 NC'[&!color=#ff9999]:0.026185)[&label=100,!color=#ff9999]:0.007041)[&label=58,!cartoon={8,0.01666899999999999},!color=#ff9999]:0.003501)[&label=3]:0.002777,(((((((('Heuchera americana var. hispida A59-4 NC McDowell'[&!color=#ff9999]:0.01789,'Heuchera americana var. hispida A59-8 NC McDowell'[&!color=#ff9999]:0.017274)[&label=65,!color=#ff9999]:0.006126,('Heuchera americana var. hispida A59-5 NC McDowell'[&!color=#ff9999]:0.013089,'Heuchera americana var. hispida A59-3 NC McDowell'[&!color=#ff9999]:0.013381)[&label=65,!color=#ff9999]:0.005316)[&label=67,!color=#ff9999]:0.002858,('Heuchera americana var. hispida A59-9 NC McDowell'[&!color=#ff9999]:0.018079,'Heuchera americana var. hispida A59-1 NC McDowell'[&!color=#ff9999]:0.01702)[&label=91,!color=#ff9999]:0.00719)[&label=74,!color=#ff9999]:0.003001,(('Heuchera americana var. hispida A59-7 NC McDowell'[&!color=#ff9999]:0.015358,'Heuchera americana var. hispida A59-6 NC McDowell'[&!color=#ff9999]:0.010826)[&label=100,!color=#ff9999]:0.006703,'Heuchera americana var. hispida A59-2 NC McDowell'[&!color=#ff9999]:0.016621)[&label=97,!color=#ff9999]:0.005333)[&label=100,!cartoon={9,0.013369999999999993},!color=#ff9999]:0.006001,('Heuchera_americana_var._americana_H95_NC':0.023316,'Heuchera_americana_var._americana_E1853_NC_Buncombe':0.022185)[&label=93]:0.005388)[&label=99]:0.005696,((('Heuchera americana var. americana H92-3 NC'[&!color=#ff9999]:0.017214,'Heuchera americana var. americana H92-1 NC'[&!color=#ff9999]:0.013865)[&label=71,!color=#ff9999]:0.005236,'Heuchera americana var. americana H92-2 NC'[&!color=#ff9999]:0.019242)[&label=100,!color=#ff9999]:0.0073,'Heuchera_americana_var._americana_E1879_NC_Mitchell'[&!color=#ff9999]:0.027124)[&label=78,!cartoon={4,0.02110400000000001},!color=#ff9999]:0.004088)[&label=68,!cartoon={15,0.013369999999999965},!color=#ff9999]:0.002939,((((('Heuchera americana var. americana A58-3 NC'[&!color=#ff9999]:0.00722,'Heuchera americana var. americana A58-2 NC'[&!color=#ff9999]:0.01195)[&label=100,!color=#ff9999]:0.006481,'Heuchera americana var. americana A58-4 NC'[&!color=#ff9999]:0.010371)[&label=100,!color=#ff9999]:0.007535,'Heuchera americana var. americana A58-1 NC'[&!color=#ff9999]:0.015892)[&label=100,!color=#ff9999]:0.010911,('Heuchera_americana_var._americana_A57_NC'[&!color=#ff9999]:0.022456,'Heuchera_americana_var._americana_E1873_NC_Macon'[&!color=#ff9999]:0.027871)[&label=38,!color=#ff9999]:0.003782)[&label=74,!color=#ff9999]:0.004009,'Heuchera_americana_var._americana_E1486_TN_Swain'[&!color=#ff9999]:0.021533)[&label=42,!cartoon={7,0.014003999999999989},!color=#ff9999]:0.002991)[&label=22]:0.002311,(((('Heuchera longiflora var. aceroides L1-3 NC'[&!color=#003333]:0.020483,'Heuchera longiflora var. aceroides L1-1 NC'[&!color=#003333]:0.022605)[&label=100,!color=#003333]:0.00574,('Heuchera_americana_var._americana_E1863_NC_Haywood'[&!color=#003333]:0.026113,'Heuchera_americana_var._americana_E1875_NC_Madison'[&!color=#003333]:0.019512)[&label=58,!color=#003333]:0.004551)[&label=52,!color=#003333]:0.002481,'Heuchera_americana_var._americana_E1859_NC_Graham'[&!color=#003333]:0.027897)[&label=49,!cartoon={5,0.021066},!color=#003333]:0.002889,(('Heuchera_americana_var._americana_E507_NC'[&!color=#000000]:0.024268,'Heuchera longiflora var. aceroides L3-2 NC'[&!color=#000000]:0.017745)[&label=99,!color=#000000]:0.005654,'Heuchera longiflora var. aceroides L3-1 NC'[&!color=#000000]:0.022821)[&label=99,!cartoon={3,0.020710000000000006},!color=#000000]:0.006468)[&label=36]:0.003092)[&label=80]:0.003073)[&label=4]:0.003124,(((('Heuchera longiflora var. longiflora L20-1 KY'[&!color=#000000]:0.022609,'Heuchera longiflora var. longiflora L6-1 VA'[&!color=#000000]:0.026291)[&label=55,!color=#000000]:0.005013,'Heuchera longiflora var. longiflora L9-2 VA'[&!color=#000000]:0.024712)[&label=38,!color=#000000]:0.002257,('Heuchera longiflora var. longiflora L14-1 KY'[&!color=#000000]:0.027547,'Heuchera longiflora var. longiflora L6-2 VA'[&!color=#000000]:0.024326)[&label=42,!color=#000000]:0.004294)[&label=68,!color=#000000]:0.003116,(('Heuchera longiflora var. longiflora L14-2 KY'[&!color=#000000]:0.028412,'Heuchera longiflora var. longiflora FL-25 VA'[&!color=#000000]:0.027637)[&label=94,!color=#000000]:0.004351,('Heuchera longiflora var. longiflora L20-2 KY'[&!color=#000000]:0.024766,'Heuchera_americana_var._hispida_E1570_VA_Tazewell'[&!color=#000000]:0.030183)[&label=49,!color=#000000]:0.004676)[&label=52,!color=#000000]:0.003191)[&label=80,!cartoon={9,0.02472699999999997},!color=#000000]:0.003612)[&label=4]:0.003566,(((('Heuchera_americana_var._brevipetala_E1679_KY_Greenup'[&!color=#ff9999]:0.023679,'Heuchera_americana_var._americana_E439_KY_Henry'[&!color=#ff9999]:0.029795)[&label=100,!color=#ff9999]:0.005578,'Heuchera_americana_var._americana_E524_TN_Campbell'[&!color=#ff9999]:0.026637)[&label=72,!color=#ff9999]:0.003579,'Heuchera_americana_var._calycosa_E515_TN_Grainger'[&!color=#ff9999]:0.02771)[&label=71,!color=#ff9999]:0.002489,('Heuchera longiflora var. longiflora FL-26 AL'[&!color=#ff9999]:0.023527,'Heuchera longiflora var. longiflora FL-27 AL'[&!color=#ff9999]:0.019661)[&label=100,!color=#ff9999]:0.011349)[&label=61,!cartoon={6,0.02547100000000002},!color=#ff9999]:0.003043)[&label=0]:0.001681,(((((('Heuchera americana var. heteradenia A63-5 TN'[&!color=#ff9999]:0.021074,'Heuchera americana var. heteradenia A63-10 TN'[&!color=#ff9999]:0.019748)[&label=49,!color=#ff9999]:0.003264,('Heuchera americana var. heteradenia A63-8 TN'[&!color=#ff9999]:0.015781,'Heuchera americana var. heteradenia A63-2 TN'[&!color=#ff9999]:0.020225)[&label=88,!color=#ff9999]:0.005109)[&label=70,!color=#ff9999]:0.003785,'Heuchera americana var. heteradenia A63-7 TN'[&!color=#ff9999]:0.023788)[&label=100,!color=#ff9999]:0.005481,(('Heuchera americana var. heteradenia A63-4 TN'[&!color=#ff9999]:0.018014,'Heuchera americana var. heteradenia A63-1 TN'[&!color=#ff9999]:0.019713)[&label=83,!color=#ff9999]:0.005705,'Heuchera americana var. heteradenia A63-3 TN'[&!color=#ff9999]:0.020132)[&label=100,!color=#ff9999]:0.008855)[&label=99,!color=#ff9999]:0.00325,('Heuchera americana var. heteradenia A63-6 TN'[&!color=#ff9999]:0.025622,'Heuchera americana var. heteradenia A63-9 TN'[&!color=#ff9999]:0.02827)[&label=99,!color=#ff9999]:0.005595)[&label=100,!color=#ff9999]:0.003087,((('Heuchera americana var. heteradenia A62-3 TN'[&!color=#ff9999]:0.016299,'Heuchera americana var. heteradenia A62-2 TN'[&!color=#ff9999]:0.015205)[&label=100,!color=#ff9999]:0.010573,'Heuchera americana var. heteradenia A62-1 TN'[&!color=#ff9999]:0.026074)[&label=100,!color=#ff9999]:0.004766,'Heuchera_americana_var._calycosa_E518_TN_Blount'[&!color=#ff9999]:0.026907)[&label=22,!color=#ff9999]:0.002197)[&label=57,!cartoon={14,0.02800999999999998},!color=#ff9999]:0.002689)[&label=4]:0.002872,(((((('Heuchera americana var. americana A4-1 GA'[&!color=#ff9999]:0.015603,'Heuchera americana var. americana A4-4 GA'[&!color=#ff9999]:0.019388)[&label=100,!color=#ff9999]:0.005608,('Heuchera americana var. americana A4-5 GA'[&!color=#ff9999]:0.020699,'Heuchera americana var. americana A4-2 GA'[&!color=#ff9999]:0.020893)[&label=70,!color=#ff9999]:0.004632)[&label=94,!color=#ff9999]:0.005587,'Heuchera americana var. americana A4-3 GA'[&!color=#ff9999]:0.024545)[&label=100,!color=#ff9999]:0.006291,('Heuchera americana var. americana A6-3 GA'[&!color=#ff9999]:0.02049,'Heuchera americana var. americana A6-2 GA'[&!color=#ff9999]:0.021461)[&label=100,!color=#ff9999]:0.010555)[&label=99,!color=#ff9999]:0.002997,(((('Heuchera americana var. americana A56-6 NC'[&!color=#ff9999]:0.022745,'Heuchera americana var. americana A56-4 NC'[&!color=#ff9999]:0.019154)[&label=49,!color=#ff9999]:0.00561,'Heuchera americana var. americana A56-5 NC'[&!color=#ff9999]:0.018129)[&label=90,!color=#ff9999]:0.005206,('Heuchera americana var. americana A56-1 NC'[&!color=#ff9999]:0.02171,'Heuchera americana var. americana A56-7 NC'[&!color=#ff9999]:0.021021)[&label=90,!color=#ff9999]:0.005249)[&label=100,!color=#ff9999]:0.004396,('Heuchera americana var. americana A56-2 NC'[&!color=#ff9999]:0.017397,'Heuchera americana var. americana A56-3 NC'[&!color=#ff9999]:0.022257)[&label=100,!color=#ff9999]:0.009626)[&label=100,!color=#ff9999]:0.005234)[&label=94,!color=#ff9999]:0.003795,(((((('Heuchera americana var. heteradenia A55-4 TN'[&!color=#ff9999]:0.015095,'Heuchera americana var. heteradenia A55-5 TN'[&!color=#ff9999]:0.015125)[&label=100,!color=#ff9999]:0.010681,('Heuchera americana var. heteradenia A55-1 TN'[&!color=#ff9999]:0.013269,'Heuchera americana var. heteradenia A55-2 TN'[&!color=#ff9999]:0.017459)[&label=93,!color=#ff9999]:0.005725)[&label=80,!color=#ff9999]:0.003576,('Heuchera americana var. heteradenia A55-3 TN'[&!color=#ff9999]:0.01385,'Heuchera americana var. heteradenia A55-6 TN'[&!color=#ff9999]:0.014269)[&label=99,!color=#ff9999]:0.008122)[&label=81,!color=#ff9999]:0.004031,'Heuchera_americana_var._americana_E1544_TN_Polk'[&!color=#ff9999]:0.020469)[&label=65,!color=#ff9999]:0.003111,'Heuchera_americana_var._heteradenia_I70'[&!color=#ff9999]:0.023807)[&label=71,!color=#ff9999]:0.003053,'Heuchera_americana_var._americana_E1472_TN_Fentress'[&!color=#ff9999]:0.026032)[&label=77,!color=#ff9999]:0.002835)[&label=45,!cartoon={23,0.025760000000000005},!color=#ff9999]:0.001762)[&label=1]:0.0011,'Heuchera_americana_var._brevipetala_E1475_TN_Grundy'[&!color=#ff9999]:0.026192)[&label=4]:0.002218,((((((('Heuchera americana var. calycosa A53-7 AL'[&!color=#ff9999]:0.015069,'Heuchera americana var. calycosa A53-6 AL'[&!color=#ff9999]:0.015566)[&label=100,!color=#ff9999]:0.007453,'Heuchera americana var. calycosa A53-9 AL'[&!color=#ff9999]:0.020378)[&label=100,!color=#ff9999]:0.005966,('Heuchera americana var. calycosa A53-2 AL'[&!color=#ff9999]:0.015118,'Heuchera americana var. calycosa A53-5 AL'[&!color=#ff9999]:0.017929)[&label=100,!color=#ff9999]:0.007235)[&label=99,!color=#ff9999]:0.004693,((('Heuchera americana var. calycosa A53-1 AL'[&!color=#ff9999]:0.019885,'Heuchera americana var. calycosa A53-10 AL'[&!color=#ff9999]:0.019052)[&label=96,!color=#ff9999]:0.005643,'Heuchera americana var. calycosa A53-3 AL'[&!color=#ff9999]:0.021758)[&label=100,!color=#ff9999]:0.004731,('Heuchera americana var. calycosa A53-4 AL'[&!color=#ff9999]:0.020798,'Heuchera americana var. calycosa A53-8 AL'[&!color=#ff9999]:0.019555)[&label=100,!color=#ff9999]:0.006507)[&label=51,!color=#ff9999]:0.002813)[&label=100,!color=#ff9999]:0.006663,((('Heuchera_americana_var._calycosa_E1579_AL_Cleburne'[&!color=#ff9999]:0.014779,'Heuchera_americana_var._calycosa_E502_AL_Cleburne'[&!color=#ff9999]:0.007053)[&label=100,!color=#ff9999]:0.018959,'Heuchera americana var. americana A1-2 AL'[&!color=#ff9999]:0.023598)[&label=55,!color=#ff9999]:0.005123,(('Heuchera americana var. americana A1-4 AL'[&!color=#ff9999]:0.018547,'Heuchera americana var. americana A1-3 AL'[&!color=#ff9999]:0.017884)[&label=100,!color=#ff9999]:0.008048,'Heuchera americana var. americana A1-1 AL'[&!color=#ff9999]:0.025851)[&label=75,!color=#ff9999]:0.005003)[&label=65,!color=#ff9999]:0.002962)[&label=64,!color=#ff9999]:0.003113,((('Heuchera americana var. americana A2-4 AL'[&!color=#ff9999]:0.023949,'Heuchera americana var. americana A2-3 AL'[&!color=#ff9999]:0.021885)[&label=100,!color=#ff9999]:0.006431,'Heuchera_americana_var._americana_A8_GA'[&!color=#ff9999]:0.032511)[&label=80,!color=#ff9999]:0.002558,('Heuchera_americana_var._calycosa_E514_GA_Floyd'[&!color=#ff9999]:0.03071,'Heuchera_americana_var._hispida_E1578_AL_Clay'[&!color=#ff9999]:0.026863)[&label=46,!color=#ff9999]:0.005407)[&label=16,!color=#ff9999]:0.002566)[&label=23,!color=#ff9999]:0.003575,((('Heuchera americana var. americana A3-3 AL'[&!color=#ff9999]:0.027047,'Heuchera americana var. americana A3-2 AL'[&!color=#ff9999]:0.02449)[&label=51,!color=#ff9999]:0.005473,('Heuchera americana var. americana A3-1 AL'[&!color=#ff9999]:0.024782,'Heuchera americana var. americana A3-4 AL'[&!color=#ff9999]:0.024318)[&label=49,!color=#ff9999]:0.005667)[&label=100,!color=#ff9999]:0.004839,(('Heuchera americana var. calycosa A54-3 AL'[&!color=#ff9999]:0.018332,'Heuchera americana var. calycosa A54-1 AL'[&!color=#ff9999]:0.017172)[&label=100,!color=#ff9999]:0.008166,'Heuchera americana var. calycosa A54-2 AL'[&!color=#ff9999]:0.026753)[&label=100,!color=#ff9999]:0.007306)[&label=33,!color=#ff9999]:0.002269)[&label=35,!cartoon={28,0.026320999999999983},!color=#ff9999]:0.002994)[&label=3]:0.00296,((((((((((('Heuchera_americana_var._americana_E1502_VA_Halifax'[&!color=#ff9999]:0.025487,'Heuchera_americana_var._americana_E1856_NC_Chatham'[&!color=#ff9999]:0.02245)[&label=54,!color=#ff9999]:0.003664,'Heuchera_americana_var._americana_E1869_NC_Lee'[&!color=#ff9999]:0.02119)[&label=62,!color=#ff9999]:0.004091,'Heuchera_americana_var._americana_E1860_NC_Granville'[&!color=#ff9999]:0.025728)[&label=52,!color=#ff9999]:0.004332,(('Heuchera_americana_var._americana_E1868_NC_Lee'[&!color=#ff9999]:0.021327,'Heuchera_americana_var._americana_E1874_NC_Madison'[&!color=#ff9999]:0.023261)[&label=25,!color=#ff9999]:0.004204,'Heuchera_americana_var._americana_E1916_NC_Moore'[&!color=#ff9999]:0.025435)[&label=9,!color=#ff9999]:0.003424)[&label=14,!color=#ff9999]:0.002923,((('Heuchera_americana_var._americana_E1871_NC_Lee'[&!color=#ff9999]:0.023124,'Heuchera_americana_var._americana_E1870_NC_Lee'[&!color=#ff9999]:0.020578)[&label=71,!color=#ff9999]:0.005432,'Heuchera_americana_var._americana_E510_NC_Durham'[&!color=#ff9999]:0.023418)[&label=35,!color=#ff9999]:0.003125,('Heuchera_americana_var._americana_E1876_NC_Martin'[&!color=#ff9999]:0.023581,'Heuchera_americana_var._americana_E1500_VA_Halifax'[&!color=#ff9999]:0.023259)[&label=12,!color=#ff9999]:0.002882)[&label=13,!color=#ff9999]:0.003775)[&label=4,!color=#ff9999]:0.004192,('Heuchera_americana_var._americana_E1855_NC_Caswell'[&!color=#ff9999]:0.027251,'Heuchera_americana_var._americana_E1857_NC_Durham'[&!color=#ff9999]:0.024286)[&label=48,!color=#ff9999]:0.004826)[&label=12,!cartoon={14,0.019892999999999966},!color=#ff9999]:0.003438,(((('Heuchera caroliniana A50-4 SC'[&!color=#000000]:0.017443,'Heuchera caroliniana A50-1 SC'[&!color=#000000]:0.018452)[&label=97,!color=#000000]:0.008688,('Heuchera caroliniana H216-2 SC'[&!color=#000000]:0.024679,'Heuchera caroliniana H216-1 SC'[&!color=#000000]:0.022075)[&label=100,!color=#000000]:0.007824)[&label=43,!color=#000000]:0.002897,((Heuchera_caroliniana_E1915_NC_Mecklenburg[&!color=#000000]:0.02621,Heuchera_caroliniana_E1924_NC_Union[&!color=#000000]:0.023114)[&label=57,!color=#000000]:0.004377,('Heuchera caroliniana A50-2 SC'[&!color=#000000]:0.03047,Heuchera_caroliniana_E1921_NC_Stanly[&!color=#000000]:0.02138)[&label=29,!color=#000000]:0.00468)[&label=32,!color=#000000]:0.004292)[&label=42,!color=#000000]:0.003508,(Heuchera_caroliniana_E35_NC_Stanly[&!color=#000000]:0.023302,'Heuchera_americana_var._americana_E516_NC_Stanly'[&!color=#000000]:0.022402)[&label=96,!color=#000000]:0.006428)[&label=72,!cartoon={10,0.02097399999999995},!color=#000000]:0.004096)[&label=4]:0.00258,Heuchera_caroliniana_E1911_NC_Iredell:0.032751)[&label=7]:0.003324,('Heuchera_americana_var._americana_E1423_SC_Fairfield'[&!color=#ff9999]:0.02487,'Heuchera_americana_var._americana_E1419_SC_Cherokee'[&!color=#ff9999]:0.023899)[&label=67,!color=#ff9999]:0.005157)[&label=13]:0.00151,'Heuchera_americana_var._americana_E1505_VA_Isle_of_Wright'[&!color=#ff9999]:0.026528)[&label=12]:0.002701,(((((('Heuchera americana var. americana A7-1 SC'[&!color=#ff9999]:0.018452,'Heuchera americana var. americana A7-3 SC'[&!color=#ff9999]:0.018131)[&label=77,!color=#ff9999]:0.006531,'Heuchera americana var. americana A7-4 SC'[&!color=#ff9999]:0.019974)[&label=100,!color=#ff9999]:0.005397,'Heuchera americana var. americana A7-2 SC'[&!color=#ff9999]:0.019695)[&label=100,!color=#ff9999]:0.008295,(('Heuchera_americana_var._americana_E1421_SC_Dorchester'[&!color=#ff9999]:0.021698,'Heuchera_americana_var._americana_E36_SC_Newberry'[&!color=#ff9999]:0.020835)[&label=70,!color=#ff9999]:0.002791,'Heuchera_americana_var._americana_E519_GA_McCormick'[&!color=#ff9999]:0.028065)[&label=55,!color=#ff9999]:0.0035)[&label=52,!color=#ff9999]:0.00287,('Heuchera_americana_var._brevipetala_E1519_GA_Bulloch'[&!color=#ff9999]:0.014058,'Heuchera_americana_var._americana_E1542_GA_Screven'[&!color=#ff9999]:0.017393)[&label=100,!color=#ff9999]:0.012334)[&label=90,!color=#ff9999]:0.002401,'Heuchera_americana_var._americana_E505_GA_Burke'[&!color=#ff9999]:0.030442)[&label=75,!color=#ff9999,!cartoon={10,0.03208299999999997}]:0.002106)[&label=6]:0.002651)[&label=32]:0.002674,'Heuchera americana var. americana H214-2 TN'[&!color=#ff9999]:0.034191)[&label=68]:0.003143,(((((((('Heuchera americana var. c.f. calycosa A33-6 TN'[&!color=#ff9999]:0.021481,'Heuchera americana var. c.f. calycosa A33-1 TN'[&!color=#ff9999]:0.021054)[&label=51,!color=#ff9999]:0.005693,'Heuchera americana var. c.f. calycosa A33-5 TN'[&!color=#ff9999]:0.026055)[&label=100,!color=#ff9999]:0.005356,(('Heuchera americana var. c.f. calycosa A33-4 TN'[&!color=#ff9999]:0.021464,'Heuchera americana var. c.f. calycosa A33-3 TN'[&!color=#ff9999]:0.02351)[&label=80,!color=#ff9999]:0.00584,'Heuchera americana var. c.f. calycosa A33-2 TN'[&!color=#ff9999]:0.026339)[&label=100,!color=#ff9999]:0.004926)[&label=52,!color=#ff9999]:0.002346,'Heuchera_americana_var._americana_E440_TN_Decatur'[&!color=#ff9999]:0.027853)[&label=74,!color=#ff9999]:0.00227,(((('Heuchera americana var. calycosa A28-7 MS'[&!color=#ff9999]:0.019596,'Heuchera americana var. calycosa A28-8 MS'[&!color=#ff9999]:0.015208)[&label=87,!color=#ff9999]:0.005897,'Heuchera americana var. calycosa A28-5 MS'[&!color=#ff9999]:0.02308)[&label=100,!color=#ff9999]:0.006634,('Heuchera americana var. calycosa A28-2 MS'[&!color=#ff9999]:0.024427,'Heuchera americana var. calycosa A28-9 MS'[&!color=#ff9999]:0.028274)[&label=86,!color=#ff9999]:0.005071)[&label=51,!color=#ff9999]:0.00385,('Heuchera americana var. calycosa A28-6 MS'[&!color=#ff9999]:0.02313,'Heuchera americana var. calycosa A28-1 MS'[&!color=#ff9999]:0.027282)[&label=72,!color=#ff9999]:0.005105)[&label=0,!color=#ff9999]:0.001516)[&label=1,!color=#ff9999]:0.002679,(((((('Heuchera americana var. calycosa A29-6 MS'[&!color=#ff9999]:0.021746,'Heuchera americana var. calycosa A29-9 MS'[&!color=#ff9999]:0.017669)[&label=86,!color=#ff9999]:0.007358,'Heuchera americana var. calycosa A29-5 MS'[&!color=#ff9999]:0.024287)[&label=100,!color=#ff9999]:0.004824,'Heuchera americana var. calycosa A29-8 MS'[&!color=#ff9999]:0.028351)[&label=23,!color=#ff9999]:0.003317,('Heuchera americana var. calycosa A29-10 MS'[&!color=#ff9999]:0.027893,'Heuchera americana var. calycosa A29-2 MS'[&!color=#ff9999]:0.018882)[&label=67,!color=#ff9999]:0.004739)[&label=20,!color=#ff9999]:0.001764,('Heuchera americana var. calycosa A29-7 MS'[&!color=#ff9999]:0.027463,'Heuchera americana var. calycosa A29-3 MS'[&!color=#ff9999]:0.023558)[&label=88,!color=#ff9999]:0.006744)[&label=17,!color=#ff9999]:0.002128,(('Heuchera americana var. calycosa A28-3 MS'[&!color=#ff9999]:0.011819,'Heuchera americana var. calycosa A28-4 MS'[&!color=#ff9999]:0.010401)[&label=100,!color=#ff9999]:0.017662,('Heuchera americana var. calycosa A29-1 MS'[&!color=#ff9999]:0.026397,'Heuchera americana var. calycosa A29-4 MS'[&!color=#ff9999]:0.023365)[&label=35,!color=#ff9999]:0.003407)[&label=9,!color=#ff9999]:0.003505)[&label=1,!color=#ff9999]:0.002261)[&label=7,!color=#ff9999]:0.001431,(((((('Heuchera americana var. americana A34-7 TN'[&!color=#ff9999]:0.01734,'Heuchera americana var. americana A34-6 TN'[&!color=#ff9999]:0.019864)[&label=86,!color=#ff9999]:0.0068,'Heuchera americana var. americana A34-10 TN'[&!color=#ff9999]:0.024151)[&label=45,!color=#ff9999]:0.003355,'Heuchera americana var. americana A34-5 TN'[&!color=#ff9999]:0.028354)[&label=59,!color=#ff9999]:0.003585,('Heuchera americana var. americana A34-8 TN'[&!color=#ff9999]:0.03085,'Heuchera americana var. americana A34-9 TN'[&!color=#ff9999]:0.020088)[&label=55,!color=#ff9999]:0.004585)[&label=61,!color=#ff9999]:0.002424,(('Heuchera americana var. americana A34-4 TN'[&!color=#ff9999]:0.0226,'Heuchera americana var. americana A34-3 TN'[&!color=#ff9999]:0.023361)[&label=99,!color=#ff9999]:0.004346,('Heuchera americana var. americana A34-1 TN'[&!color=#ff9999]:0.017984,'Heuchera americana var. americana A34-2 TN'[&!color=#ff9999]:0.017443)[&label=100,!color=#ff9999]:0.007715)[&label=100,!color=#ff9999]:0.004562)[&label=80,!color=#ff9999]:0.004531,(((('Heuchera americana var. americana A35-3 TN'[&!color=#ff9999]:0.011352,'Heuchera americana var. americana A35-2 TN'[&!color=#ff9999]:0.012896)[&label=100,!color=#ff9999]:0.010735,('Heuchera americana var. americana A35-10 TN'[&!color=#ff9999]:0.013564,'Heuchera americana var. americana A35-1 TN'[&!color=#ff9999]:0.015154)[&label=100,!color=#ff9999]:0.00818)[&label=100,!color=#ff9999]:0.005974,'Heuchera americana var. americana A35-5 TN'[&!color=#ff9999]:0.02694)[&label=14,!color=#ff9999]:0.003657,((('Heuchera americana var. americana A35-8 TN'[&!color=#ff9999]:0.01986,'Heuchera americana var. americana A35-9 TN'[&!color=#ff9999]:0.015054)[&label=94,!color=#ff9999]:0.005574,'Heuchera americana var. americana A35-4 TN'[&!color=#ff9999]:0.020079)[&label=67,!color=#ff9999]:0.004451,'Heuchera americana var. americana A35-6 TN'[&!color=#ff9999]:0.022306)[&label=96,!color=#ff9999]:0.004405)[&label=100,!color=#ff9999]:0.005036)[&label=43,!color=#ff9999]:0.002005)[&label=20,!cartoon={45,0.037743},!color=#ff9999]:0.001605,((((((((('Heuchera americana var. hirsuticaulis A39-6 KY'[&!color=#ffcc66]:0.020707,'Heuchera americana var. hirsuticaulis A39-1 KY'[&!color=#ffcc66]:0.020412)[&label=100,!color=#ffcc66]:0.007403,'Heuchera americana var. hirsuticaulis A39-3 KY'[&!color=#ffcc66]:0.026113)[&label=100,!color=#ffcc66]:0.00407,('Heuchera americana var. hirsuticaulis A39-9 KY'[&!color=#ffcc66]:0.024158,'Heuchera americana var. hirsuticaulis A39-10 KY'[&!color=#ffcc66]:0.023585)[&label=100,!color=#ffcc66]:0.004937)[&label=100,!color=#ffcc66]:0.003718,(('Heuchera americana var. hirsuticaulis A39-7 KY'[&!color=#ffcc66]:0.018369,'Heuchera americana var. hirsuticaulis A39-11 KY'[&!color=#ffcc66]:0.018964)[&label=100,!color=#ffcc66]:0.009634,'Heuchera americana var. hirsuticaulis A39-8 KY'[&!color=#ffcc66]:0.028115)[&label=86,!color=#ffcc66]:0.003545)[&label=71,!color=#ffcc66]:0.002587,(('Heuchera americana var. hirsuticaulis A39-2 KY'[&!color=#ffcc66]:0.021843,'Heuchera americana var. hirsuticaulis A39-4 KY'[&!color=#ffcc66]:0.021928)[&label=100,!color=#ffcc66]:0.010361,('Heuchera americana var. hirsuticaulis A39-5 KY'[&!color=#ffcc66]:0.02639,'Heuchera_americana_var._hirsuticaulis_E1537_KY_Livingston'[&!color=#ffcc66]:0.027865)[&label=67,!color=#ffcc66]:0.004102)[&label=9,!color=#ffcc66]:0.001818)[&label=16,!color=#ffcc66]:0.002031,((((((('Heuchera americana var. hirsuticaulis A32-1 TN'[&!color=#ffcc66]:0.012532,'Heuchera americana var. hirsuticaulis A32-9 TN'[&!color=#ffcc66]:0.010938)[&label=67,!color=#ffcc66]:0.004329,'Heuchera americana var. hirsuticaulis A32-6 TN'[&!color=#ffcc66]:0.019156)[&label=30,!color=#ffcc66]:0.003248,('Heuchera americana var. hirsuticaulis A32-3 TN'[&!color=#ffcc66]:0.0233,'Heuchera americana var. hirsuticaulis A32-2 TN'[&!color=#ffcc66]:0.017224)[&label=67,!color=#ffcc66]:0.005757)[&label=29,!color=#ffcc66]:0.003374,('Heuchera americana var. hirsuticaulis A32-5 TN'[&!color=#ffcc66]:0.01566,'Heuchera americana var. hirsuticaulis A32-10 TN'[&!color=#ffcc66]:0.016121)[&label=100,!color=#ffcc66]:0.007687)[&label=29,!color=#ffcc66]:0.003473,(('Heuchera americana var. hirsuticaulis A32-8 TN'[&!color=#ffcc66]:0.017663,'Heuchera americana var. hirsuticaulis A32-4 TN'[&!color=#ffcc66]:0.018608)[&label=35,!color=#ffcc66]:0.003829,'Heuchera americana var. hirsuticaulis A32-7 TN'[&!color=#ffcc66]:0.022419)[&label=41,!color=#ffcc66]:0.003777)[&label=99,!color=#ffcc66]:0.003624,'Heuchera_americana_var._hirsuticaulis_E1540_KY_Trigg'[&!color=#ffcc66]:0.025715)[&label=61,!color=#ffcc66]:0.00246,'Heuchera_americana_var._hirsuticaulis_A31_MS'[&!color=#ffcc66]:0.027948)[&label=28,!color=#ffcc66]:0.00299)[&label=13,!color=#ffcc66]:0.001284,(('Heuchera_americana_var._hirsuticaulis_E441_TN_Hardeman'[&!color=#ffcc66]:0.020745,'Heuchera_americana_var._hirsuticaulis_E442_TN_McNairy'[&!color=#ffcc66]:0.028996)[&label=94,!color=#ffcc66]:0.00638,'Heuchera americana var. americana A35-7 TN'[&!color=#ffcc66]:0.026649)[&label=7,!color=#ffcc66]:0.003491)[&label=29,!color=#ffcc66]:0.001525,('Heuchera americana var. hirsuticaulis A38-2 KY'[&!color=#ffcc66]:0.018457,'Heuchera americana var. hirsuticaulis A38-1 KY'[&!color=#ffcc66]:0.022186)[&label=100,!color=#ffcc66]:0.009611)[&label=43,!color=#ffcc66]:0.001483,'Heuchera_americana_var._americana_E511_AL_Fayette'[&!color=#ffcc66]:0.035254)[&label=16,!cartoon={30,0.034},!color=#ffcc66]:9.07E-4)[&label=72]:0.002426)[&label=30]:0.001909,(((((((((('Heuchera americana var. americana A10-2 IN'[&!color=#ff9999]:0.015852,'Heuchera americana var. americana A10-7 IN'[&!color=#ff9999]:0.019919)[&label=100,!color=#ff9999]:0.006099,('Heuchera americana var. americana A10-5 IN'[&!color=#ff9999]:0.019149,'Heuchera americana var. americana A10-8 IN'[&!color=#ff9999]:0.020455)[&label=33,!color=#ff9999]:0.005184)[&label=29,!color=#ff9999]:0.003191,('Heuchera americana var. americana A10-4 IN'[&!color=#ff9999]:0.017885,'Heuchera americana var. americana A10-6 IN'[&!color=#ff9999]:0.016515)[&label=100,!color=#ff9999]:0.010022)[&label=61,!color=#ff9999]:0.003558,'Heuchera americana var. americana A10-3 IN'[&!color=#ff9999]:0.023685)[&label=59,!color=#ff9999]:0.003865,'Heuchera americana var. americana A10-1 IN'[&!color=#ff9999]:0.025319)[&label=100,!color=#ff9999]:0.006823,(('Heuchera americana var. americana H83-C OH Greene'[&!color=#ff9999]:0.017234,'Heuchera_americana_var._americana_H246_OH'[&!color=#ff9999]:0.027718)[&label=54,!color=#ff9999]:0.003925,'Heuchera_americana_var._brevipetala_I2_OH'[&!color=#ff9999]:0.030247)[&label=26,!color=#ff9999]:0.003567)[&label=17,!color=#ff9999]:0.00221,(((('Heuchera americana var. americana A11-6 IN'[&!color=#ff9999]:0.02786,'Heuchera americana var. americana A11-7 IN'[&!color=#ff9999]:0.016638)[&label=99,!color=#ff9999]:0.006561,'Heuchera americana var. americana A11-1 IN'[&!color=#ff9999]:0.023118)[&label=65,!color=#ff9999]:0.004076,'Heuchera americana var. americana A11-3 IN'[&!color=#ff9999]:0.026829)[&label=23,!color=#ff9999]:0.003024,(('Heuchera americana var. americana A11-2 IN'[&!color=#ff9999]:0.020583,'Heuchera americana var. americana A11-4 IN'[&!color=#ff9999]:0.027577)[&label=54,!color=#ff9999]:0.004254,('Heuchera americana var. americana A11-5 IN'[&!color=#ff9999]:0.019429,'Heuchera americana var. americana A11-8 IN'[&!color=#ff9999]:0.02016)[&label=87,!color=#ff9999]:0.005815)[&label=23,!color=#ff9999]:0.003236)[&label=93,!color=#ff9999]:0.003558)[&label=12,!color=#ff9999]:0.002277,(((((('Heuchera_americana_var._hirsuticaulis_E1702_IN_Howard'[&!color=#ff9999]:0.029862,'Heuchera_americana_var._americana_E1686_OH_Portage'[&!color=#ff9999]:0.028891)[&label=10,!color=#ff9999]:0.002755,('Heuchera_americana_var._americana_E1683_OH_Jefferson'[&!color=#ff9999]:0.024715,'Heuchera_americana_var._americana_E517_KY_Madison'[&!color=#ff9999]:0.022414)[&label=14,!color=#ff9999]:0.004236)[&label=3,!color=#ff9999]:0.002181,('Heuchera_americana_var._americana_E1685_OH_Noble'[&!color=#ff9999]:0.028685,'Heuchera americana var. americana H86-C OH Knox'[&!color=#ff9999]:0.026061)[&label=7,!color=#ff9999]:0.005344)[&label=1,!color=#ff9999]:0.001517,'Heuchera_americana_var._americana_E1688_PA_Bucks'[&!color=#ff9999]:0.03125)[&label=1,!color=#ff9999]:0.001616,('Heuchera_americana_var._americana_H70'[&!color=#ff9999]:0.026229,'Heuchera_americana_var._americana_H71_OH'[&!color=#ff9999]:0.030672)[&label=16,!color=#ff9999]:0.004605)[&label=1,!color=#ff9999]:0.001539,('Heuchera_americana_var._americana_E1709_OH_Vinton'[&!color=#ff9999]:0.025367,'Heuchera_americana_var._americana_E1691_PA_Westmoreland'[&!color=#ff9999]:0.026795)[&label=25,!color=#ff9999]:0.00434)[&label=7,!color=#ff9999]:0.002061)[&label=52,!color=#ff9999]:0.002703,'Heuchera_americana_var._americana_A36_KY'[&!color=#ff9999]:0.032125)[&label=77,!color=#ff9999]:0.003126,((((('Heuchera americana var. hirsuticaulis A13-9 IL'[&!color=#ff9999]:0.02479,'Heuchera americana var. hirsuticaulis A13-1 IL'[&!color=#ff9999]:0.024311)[&label=10,!color=#ff9999]:0.005021,('Heuchera americana var. hirsuticaulis A13-8 IL'[&!color=#ff9999]:0.022191,'Heuchera americana var. hirsuticaulis A13-2 IL'[&!color=#ff9999]:0.02898)[&label=4,!color=#ff9999]:0.004424)[&label=7,!color=#ff9999]:0.002825,'Heuchera americana var. hirsuticaulis A13-5 IL'[&!color=#ff9999]:0.030568)[&label=19,!color=#ff9999]:0.003355,('Heuchera americana var. hirsuticaulis A13-4 IL'[&!color=#ff9999]:0.024581,'Heuchera americana var. hirsuticaulis A13-6 IL'[&!color=#ff9999]:0.024874)[&label=42,!color=#ff9999]:0.00628)[&label=77,!color=#ff9999]:0.003547,('Heuchera americana var. hirsuticaulis A13-3 IL'[&!color=#ff9999]:0.023149,'Heuchera americana var. hirsuticaulis A13-7 IL'[&!color=#ff9999]:0.025693)[&label=80,!color=#ff9999]:0.007166)[&label=100,!color=#ff9999]:0.003591)[&label=43,!cartoon={40,0.032077999999999995},!color=#ff9999]:0.002663)[&label=86]:0.004816,((((((((((((((('Heuchera richardsonii A21-11 MN'[&!color=#3399ff]:0.019139,'Heuchera richardsonii A21-10 MN'[&!color=#3399ff]:0.017917)[&label=52,!color=#3399ff]:0.005742,'Heuchera richardsonii A21-4 MN'[&!color=#3399ff]:0.019333)[&label=22,!color=#3399ff]:0.004688,('Heuchera richardsonii A21-6 MN'[&!color=#3399ff]:0.020866,'Heuchera richardsonii A21-9 MN'[&!color=#3399ff]:0.019545)[&label=16,!color=#3399ff]:0.004644)[&label=62,!color=#3399ff]:0.003044,('Heuchera richardsonii A21-3 MN'[&!color=#3399ff]:0.014734,'Heuchera richardsonii A21-7 MN'[&!color=#3399ff]:0.014781)[&label=100,!color=#3399ff]:0.009509)[&label=39,!color=#3399ff]:0.002854,(('Heuchera richardsonii A21-1 MN'[&!color=#3399ff]:0.021505,'Heuchera richardsonii A21-2 MN'[&!color=#3399ff]:0.016938)[&label=58,!color=#3399ff]:0.004698,('Heuchera richardsonii A21-8 MN'[&!color=#3399ff]:0.016511,'Heuchera richardsonii A21-5 MN'[&!color=#3399ff]:0.019004)[&label=88,!color=#3399ff]:0.004856)[&label=84,!color=#3399ff]:0.004996)[&label=100,!color=#3399ff]:0.006257,((((((('Heuchera richardsonii A17-6 WS'[&!color=#3399ff]:0.007844,'Heuchera richardsonii A17-1 WS'[&!color=#3399ff]:0.008433)[&label=100,!color=#3399ff]:0.008538,'Heuchera richardsonii A17-9 WS'[&!color=#3399ff]:0.016713)[&label=100,!color=#3399ff]:0.005773,('Heuchera richardsonii A17-2 WS'[&!color=#3399ff]:0.014375,'Heuchera richardsonii A17-5 WS'[&!color=#3399ff]:0.01606)[&label=100,!color=#3399ff]:0.004291)[&label=100,!color=#3399ff]:0.004247,'Heuchera richardsonii A17-7 WS'[&!color=#3399ff]:0.016134)[&label=71,!color=#3399ff]:0.004162,'Heuchera richardsonii A17-8 WS'[&!color=#3399ff]:0.0218)[&label=71,!color=#3399ff]:0.004905,('Heuchera richardsonii A17-3 WS'[&!color=#3399ff]:0.013785,'Heuchera richardsonii A17-4 WS'[&!color=#3399ff]:0.015129)[&label=100,!color=#3399ff]:0.011051)[&label=100,!color=#3399ff]:0.004431,'Heuchera_americana_var._hirsuticaulis_E1711_OK_Sequoyah'[&!color=#3399ff]:0.027188)[&label=49,!color=#3399ff]:0.002642)[&label=43,!color=#3399ff]:0.003509,(((((Heuchera_richardsonii_I58[&!color=#3399ff]:0.021908,Heuchera_richardsonii_I82_Alberta[&!color=#3399ff]:0.019128)[&label=100,!color=#3399ff]:0.005631,Heuchera_richardsonii_E639_Saskatchewan_Wallwort[&!color=#3399ff]:0.028124)[&label=71,!color=#3399ff]:0.003437,(Heuchera_richardsonii_E1805_SD_Custer[&!color=#3399ff]:0.022605,'Heuchera richardsonii H105-1 SD'[&!color=#3399ff]:0.023587)[&label=91,!color=#3399ff]:0.006178)[&label=29,!color=#3399ff]:0.002755,(('Heuchera richardsonii H106-1 SD'[&!color=#3399ff]:0.01418,'Heuchera richardsonii H106-2 SD'[&!color=#3399ff]:0.014618)[&label=100,!color=#3399ff]:0.015772,(Heuchera_richardsonii_E1794_CO_El_Paso[&!color=#3399ff]:0.027359,Heuchera_richardsonii_E1802_ND_Golden_Valley[&!color=#3399ff]:0.021623)[&label=54,!color=#3399ff]:0.005471)[&label=19,!color=#3399ff]:0.003681)[&label=54,!color=#3399ff]:0.002673,((Heuchera_richardsonii_E1785_IA_Pocahontas[&!color=#3399ff]:0.030939,Heuchera_richardsonii_E1798_MN_Clay[&!color=#3399ff]:0.023934)[&label=70,!color=#3399ff]:0.004617,(Heuchera_richardsonii_E1784[&!color=#3399ff]:0.02441,Heuchera_richardsonii_E1783_IA_Lyon[&!color=#3399ff]:0.025135)[&label=90,!color=#3399ff]:0.004126)[&label=80,!color=#3399ff]:0.004684)[&label=39,!color=#3399ff]:0.002499)[&label=23,!color=#3399ff]:0.002231,(('Heuchera richardsonii H166-1'[&!color=#3399ff]:0.018217,'Heuchera richardsonii H166-2 IA'[&!color=#3399ff]:0.013644)[&label=100,!color=#3399ff]:0.014766,Heuchera_richardsonii_E1799_MO_Andrew[&!color=#3399ff]:0.028283)[&label=43,!color=#3399ff]:0.004433)[&label=13,!cartoon={37,0.025369999999999934},!color=#3399ff]:0.002309,(((((((('Heuchera richardsonii A16-10 WS'[&!color=#3399ff]:0.008871,'Heuchera richardsonii A16-9 WS'[&!color=#3399ff]:0.010526)[&label=100,!color=#3399ff]:0.015209,('Heuchera richardsonii A16-11 WS'[&!color=#3399ff]:0.016714,'Heuchera richardsonii A16-12 WS'[&!color=#3399ff]:0.013799)[&label=97,!color=#3399ff]:0.006581)[&label=78,!color=#3399ff]:0.003021,('Heuchera richardsonii A16-1 WS'[&!color=#3399ff]:0.020778,'Heuchera richardsonii A16-8 WS'[&!color=#3399ff]:0.018273)[&label=80,!color=#3399ff]:0.006666)[&label=65,!color=#3399ff]:0.002661,((('Heuchera richardsonii A16-3 WS'[&!color=#3399ff]:0.015888,'Heuchera richardsonii A16-4 WS'[&!color=#3399ff]:0.016195)[&label=100,!color=#3399ff]:0.006437,'Heuchera richardsonii A16-6 WS'[&!color=#3399ff]:0.018707)[&label=100,!color=#3399ff]:0.005389,'Heuchera richardsonii A16-2 WS'[&!color=#3399ff]:0.021777)[&label=83,!color=#3399ff]:0.004692)[&label=96,!color=#3399ff]:0.005089,(('Heuchera richardsonii H167-2 IL'[&!color=#3399ff]:0.020423,'Heuchera richardsonii H167-1 IL'[&!color=#3399ff]:0.01792)[&label=100,!color=#3399ff]:0.007786,Heuchera_richardsonii_E1789_WI_Crawford[&!color=#3399ff]:0.027137)[&label=68,!color=#3399ff]:0.00289)[&label=55,!color=#3399ff]:0.003817,(Heuchera_richardsonii_E1781_IA_Jackson[&!color=#3399ff]:0.021472,Heuchera_richardsonii_E1782_IA_Jackson[&!color=#3399ff]:0.025314)[&label=25,!color=#3399ff]:0.004439)[&label=6,!color=#3399ff]:0.002413,(((Heuchera_richardsonii_E1786_IA_Story[&!color=#3399ff]:0.022486,Heuchera_richardsonii_E1796_IN_Porter[&!color=#3399ff]:0.020507)[&label=10,!color=#3399ff]:0.00636,Heuchera_richardsonii_E1800_MO_Dade[&!color=#3399ff]:0.027544)[&label=0,!color=#3399ff]:0.00229,(Heuchera_richardsonii_E1780_IA_Cedar[&!color=#3399ff]:0.023997,Heuchera_richardsonii_E1787_IA_Story[&!color=#3399ff]:0.024205)[&label=14,!color=#3399ff]:0.004932)[&label=0,!color=#3399ff]:0.004031)[&label=0,!cartoon={20,0.028375999999999957},!color=#3399ff]:0.00227,((((((Heuchera_richardsonii_E1792_WI_Rock[&!color=#3366ff]:0.013355,Heuchera_richardsonii_E1793_WI_Rock[&!color=#3366ff]:0.013849)[&label=70,!color=#3366ff]:0.0046,Heuchera_richardsonii_E1790_WI_Rock[&!color=#3366ff]:0.01701)[&label=100,!color=#3366ff]:0.009566,Heuchera_richardsonii_E1791_WI_Rock[&!color=#3366ff]:0.023831)[&label=57,!color=#3366ff]:0.00336,Heuchera_richardsonii_E641_IL_Will[&!color=#3366ff]:0.02306)[&label=57,!color=#3366ff]:0.003259,(((Heuchera_richardsonii_I65_MI[&!color=#3366ff]:0.020588,Heuchera_richardsonii_E542_IL_McHenry[&!color=#3366ff]:0.019662)[&label=41,!color=#3366ff]:0.004316,Heuchera_richardsonii_E1795_IN_Fulton[&!color=#3366ff]:0.028825)[&label=4,!color=#3366ff]:0.002957,Heuchera_richardsonii_E640_IL_Peoria[&!color=#3366ff]:0.027519)[&label=1,!color=#3366ff]:0.002864)[&label=4,!color=#3366ff]:0.003639,((('Heuchera americana var. hirsuticaulis A9-1 IN'[&!color=#3366ff]:0.027248,'Heuchera americana var. hirsuticaulis A9-3 IN'[&!color=#3366ff]:0.026065)[&label=55,!color=#3366ff]:0.005712,'Heuchera americana var. hirsuticaulis A9-4 IN'[&!color=#3366ff]:0.026966)[&label=84,!color=#3366ff]:0.00401,Heuchera_richardsonii_E1797_KS_Cherokee[&!color=#3366ff]:0.025659)[&label=30,!color=#3366ff]:0.002418)[&label=1,!cartoon={13,0.03231299999999995},!color=#3366ff]:0.002977)[&label=13]:0.001872)[&label=12]:0.003147,((((((('Heuchera richardsonii A15-7 MO'[&!color=#0066ff]:0.019749,'Heuchera richardsonii A15-3 MO'[&!color=#0066ff]:0.023641)[&label=26,!color=#0066ff]:0.004669,('Heuchera richardsonii A15-15 MO'[&!color=#0066ff]:0.022059,'Heuchera richardsonii A15-5 MO'[&!color=#0066ff]:0.020043)[&label=83,!color=#0066ff]:0.005614)[&label=17,!color=#0066ff]:0.002583,(('Heuchera richardsonii A15-6 MO'[&!color=#0066ff]:0.018636,'Heuchera richardsonii A15-11 MO'[&!color=#0066ff]:0.019684)[&label=100,!color=#0066ff]:0.005716,'Heuchera richardsonii A15-4 MO'[&!color=#0066ff]:0.022889)[&label=22,!color=#0066ff]:0.002804)[&label=35,!color=#0066ff]:0.003613,(('Heuchera richardsonii A15-13 MO'[&!color=#0066ff]:0.020462,'Heuchera richardsonii A15-10 MO'[&!color=#0066ff]:0.020065)[&label=99,!color=#0066ff]:0.008793,('Heuchera richardsonii A15-9 MO'[&!color=#0066ff]:0.018666,'Heuchera richardsonii A15-2 MO'[&!color=#0066ff]:0.019874)[&label=100,!color=#0066ff]:0.008633)[&label=35,!color=#0066ff]:0.002914)[&label=88,!color=#0066ff]:0.002585,('Heuchera richardsonii A15-8 MO'[&!color=#0066ff]:0.019967,'Heuchera richardsonii A15-12 MO'[&!color=#0066ff]:0.018515)[&label=100,!color=#0066ff]:0.010389)[&label=99,!cartoon={13,0.03658299999999992},!color=#0066ff]:0.002891,((((((('Heuchera richardsonii A44-4 MO'[&!color=#0066ff]:0.016503,'Heuchera richardsonii A44-5 MO'[&!color=#0066ff]:0.017884)[&label=100,!color=#0066ff]:0.006984,'Heuchera richardsonii A44-3 MO'[&!color=#0066ff]:0.019163)[&label=49,!color=#0066ff]:0.004415,'Heuchera richardsonii A44-1 MO'[&!color=#0066ff]:0.022744)[&label=48,!color=#0066ff]:0.004514,(('Heuchera richardsonii A44-7 MO'[&!color=#0066ff]:0.017048,'Heuchera richardsonii A44-8 MO'[&!color=#0066ff]:0.018313)[&label=100,!color=#0066ff]:0.008118,'Heuchera richardsonii A44-6 MO'[&!color=#0066ff]:0.021967)[&label=100,!color=#0066ff]:0.004762)[&label=26,!color=#0066ff]:0.002617,(('Heuchera richardsonii A44-2 MO'[&!color=#0066ff]:0.021106,'Heuchera richardsonii A44-10 MO'[&!color=#0066ff]:0.02364)[&label=52,!color=#0066ff]:0.005553,'Heuchera richardsonii A44-9 MO'[&!color=#0066ff]:0.025553)[&label=42,!color=#0066ff]:0.003107)[&label=78,!color=#0066ff]:0.002917,'Heuchera_americana_var._hirsuticaulis_E1704_MO_Boone'[&!color=#0066ff]:0.029065)[&label=80,!color=#0066ff]:0.002334,'Heuchera_americana_var._hirsuticaulis_E1707_MO_Saint_Louis'[&!color=#0066ff]:0.03161)[&label=41,!cartoon={12,0.03274699999999993},!color=#0066ff]:0.002153)[&label=41]:0.001183,'Heuchera_americana_var._hirsuticaulis_E1680_IL_Calhoun'[&!color=#ffff99]:0.030231)[&label=10]:0.001949)[&label=1]:0.001357,(((((((((('Heuchera americana var. hirsuticaulis A49-2 AR'[&!color=#ffff66]:0.020763,'Heuchera americana var. hirsuticaulis A49-1 AR'[&!color=#ffff66]:0.021872)[&label=43,!color=#ffff66]:0.004811,('Heuchera americana var. hirsuticaulis A49-3 AR'[&!color=#ffff66]:0.020695,'Heuchera americana var. hirsuticaulis A49-5 AR'[&!color=#ffff66]:0.021201)[&label=43,!color=#ffff66]:0.00478)[&label=32,!color=#ffff66]:0.003333,'Heuchera americana var. hirsuticaulis A49-7 AR'[&!color=#ffff66]:0.020804)[&label=74,!color=#ffff66]:0.004109,('Heuchera americana var. hirsuticaulis A49-6 AR'[&!color=#ffff66]:0.017802,'Heuchera americana var. hirsuticaulis A49-4 AR'[&!color=#ffff66]:0.017318)[&label=100,!color=#ffff66]:0.009076)[&label=65,!color=#ffff66]:0.003665,('Heuchera americana var. hirsuticaulis A49-8 AR'[&!color=#ffff66]:0.022302,'Heuchera_americana_var._hirsuticaulis_E501_AR_Faulkner'[&!color=#ffff66]:0.021242)[&label=62,!color=#ffff66]:0.005202)[&label=43,!color=#ffff66]:0.004417,(('Heuchera americana var. hirsuticaulis A49-12 AR'[&!color=#ffff66]:0.021958,'Heuchera americana var. hirsuticaulis A49-11 AR'[&!color=#ffff66]:0.018428)[&label=77,!color=#ffff66]:0.007355,('Heuchera americana var. hirsuticaulis A49-10 AR'[&!color=#ffff66]:0.020319,'Heuchera americana var. hirsuticaulis A49-9 AR'[&!color=#ffff66]:0.021122)[&label=71,!color=#ffff66]:0.004913)[&label=80,!color=#ffff66]:0.003648)[&label=99,!color=#ffff66]:0.003971,((('Heuchera_americana_var._americana_E1687_OK_McCurtain'[&!color=#ffff66]:0.021173,'Heuchera_americana_var._hirsuticaulis_E500_AR_Howard'[&!color=#ffff66]:0.030118)[&label=97,!color=#ffff66]:0.005922,'Heuchera_americana_var._hirsuticaulis_E499_AR_Garland'[&!color=#ffff66]:0.027596)[&label=14,!color=#ffff66]:0.003179,('Heuchera_americana_var._brevipetala_E1520_LA_Caddo'[&!color=#ffff66]:0.024523,'Heuchera_americana_var._brevipetala_E490_TX_Bowie'[&!color=#ffff66]:0.024026)[&label=84,!color=#ffff66]:0.005954)[&label=4,!color=#ffff66]:0.004638)[&label=3,!color=#ffff66]:0.002114,((('Heuchera americana var. hirsuticaulis H60-2 MO'[&!color=#ffff66]:0.021242,'Heuchera americana var. hirsuticaulis H60-3 MO'[&!color=#ffff66]:0.020878)[&label=100,!color=#ffff66]:0.00627,'Heuchera americana var. hirsuticaulis H60-1 MO'[&!color=#ffff66]:0.02222)[&label=100,!color=#ffff66]:0.00493,'Heuchera_americana_var._hirsuticaulis_E498_AR_Yell'[&!color=#ffff66]:0.027706)[&label=10,!color=#ffff66]:0.003645)[&label=0,!color=#ffff66]:0.002078,((((('Heuchera_americana_var._brevipetala_E492_TX_Bowie'[&!color=#ffff66]:0.022855,'Heuchera_americana_var._hirsuticaulis_E1708_MO_Taney'[&!color=#ffff66]:0.024643)[&label=26,!color=#ffff66]:0.005854,'Heuchera_americana_var._americana_E1692_TX_Bowie'[&!color=#ffff66]:0.025154)[&label=48,!color=#ffff66]:0.004476,'Heuchera_americana_var._hirsuticaulis_A48_AR'[&!color=#ffff66]:0.029205)[&label=3,!color=#ffff66]:0.002791,('Heuchera americana var. hirsuticaulis H59-2 MO'[&!color=#ffff66]:0.023524,'Heuchera americana var. hirsuticaulis H59-1 MO'[&!color=#ffff66]:0.0225)[&label=100,!color=#ffff66]:0.008999)[&label=3,!color=#ffff66]:0.001851,(('Heuchera_americana_var._hirsuticaulis_E1698_IL_Saint_Clair'[&!color=#ffff66]:0.028361,Heuchera_richardsonii_E1801_MO_Sainte_Geneveive[&!color=#ffff66]:0.021816)[&label=74,!color=#ffff66]:0.00419,('Heuchera_americana_var._hirsuticaulis_E1580_AR_Izard'[&!color=#ffff66]:0.026773,'Heuchera_americana_var._brevipetala_E509_AR_Cleburne'[&!color=#ffff66]:0.024133)[&label=30,!color=#ffff66]:0.004077)[&label=9,!color=#ffff66]:0.002408)[&label=0,!color=#ffff66]:0.00228)[&label=3,!cartoon={32,0.027296999999999932},!color=#ffff66]:0.001697,(((((('Heuchera americana var. hirsuticaulis A45-10 AR'[&!color=#ffcc66]:0.016146,'Heuchera americana var. hirsuticaulis A45-9 AR'[&!color=#ffcc66]:0.016803)[&label=100,!color=#ffcc66]:0.009315,'Heuchera americana var. hirsuticaulis A45-6 AR'[&!color=#ffcc66]:0.019926)[&label=61,!color=#ffcc66]:0.005711,('Heuchera americana var. hirsuticaulis A45-8 AR'[&!color=#ffcc66]:0.020896,'Heuchera americana var. hirsuticaulis A45-7 AR'[&!color=#ffcc66]:0.016907)[&label=91,!color=#ffcc66]:0.006891)[&label=97,!color=#ffcc66]:0.005191,((('Heuchera americana var. hirsuticaulis A45-4 AR'[&!color=#ffcc66]:0.016368,'Heuchera americana var. hirsuticaulis A45-2 AR'[&!color=#ffcc66]:0.013395)[&label=97,!color=#ffcc66]:0.006679,'Heuchera americana var. hirsuticaulis A45-1 AR'[&!color=#ffcc66]:0.018243)[&label=100,!color=#ffcc66]:0.007663,('Heuchera americana var. hirsuticaulis A45-5 AR'[&!color=#ffcc66]:0.008068,'Heuchera americana var. hirsuticaulis A45-3 AR'[&!color=#ffcc66]:0.015041)[&label=100,!color=#ffcc66]:0.012956)[&label=97,!color=#ffcc66]:0.004425)[&label=99,!color=#ffcc66]:0.004196,((('Heuchera americana var. hirsuticaulis A47-1 AR'[&!color=#ffcc66]:0.01021,'Heuchera americana var. hirsuticaulis A47-2 AR'[&!color=#ffcc66]:0.009713)[&label=100,!color=#ffcc66]:0.013556,'Heuchera americana var. hirsuticaulis A47-4 AR'[&!color=#ffcc66]:0.01936)[&label=100,!color=#ffcc66]:0.008691,('Heuchera americana var. hirsuticaulis A47-5 AR'[&!color=#ffcc66]:0.026688,'Heuchera americana var. hirsuticaulis A47-3 AR'[&!color=#ffcc66]:0.023104)[&label=100,!color=#ffcc66]:0.004896)[&label=90,!color=#ffcc66]:0.003364)[&label=55,!color=#ffcc66]:0.002691,((('Heuchera americana var. hirsuticaulis A46-1 AR'[&!color=#ffcc66]:0.018844,'Heuchera americana var. hirsuticaulis A46-5 AR'[&!color=#ffcc66]:0.019964)[&label=100,!color=#ffcc66]:0.00571,('Heuchera americana var. hirsuticaulis A46-3 AR'[&!color=#ffcc66]:0.017754,'Heuchera americana var. hirsuticaulis A46-6 AR'[&!color=#ffcc66]:0.014128)[&label=100,!color=#ffcc66]:0.00599)[&label=100,!color=#ffcc66]:0.004268,((('Heuchera americana var. hirsuticaulis A46-2 AR'[&!color=#ffcc66]:0.009034,'Heuchera americana var. hirsuticaulis A46-8 AR'[&!color=#ffcc66]:0.008682)[&label=100,!color=#ffcc66]:0.005624,'Heuchera americana var. hirsuticaulis A46-7 AR'[&!color=#ffcc66]:0.007119)[&label=100,!color=#ffcc66]:0.008227,'Heuchera americana var. hirsuticaulis A46-4 AR'[&!color=#ffcc66]:0.015157)[&label=100,!color=#ffcc66]:0.007104)[&label=100,!color=#ffcc66]:0.006848)[&label=78,!cartoon={23,0.03135699999999994},!color=#ffcc66]:0.0041)[&label=0]:0.00169)[&label=4]:0.002064,((('Heuchera richardsonii A42-1 MO'[&!color=#3333ff]:0.015756,'Heuchera richardsonii A42-4 MO'[&!color=#3333ff]:0.02337)[&label=87,!color=#3333ff]:0.005598,('Heuchera richardsonii A42-3 MO'[&!color=#3333ff]:0.023964,'Heuchera richardsonii A42-2 MO'[&!color=#3333ff]:0.024798)[&label=87,!color=#3333ff]:0.005304)[&label=100,!color=#3333ff]:0.003665,'Heuchera_americana_var._hirsuticaulis_A14_IL'[&!color=#3333ff]:0.027513)[&label=49,!cartoon={5,0.04580999999999999},!color=#3333ff]:0.003541)[&label=1]:0.001614,((((('Heuchera richardsonii A43-2 IL'[&!color=#ffcc33]:0.023441,'Heuchera richardsonii A43-3 IL'[&!color=#ffcc33]:0.024526)[&label=54,!color=#ffcc33]:0.005754,'Heuchera richardsonii A43-1 IL'[&!color=#ffcc33]:0.024269)[&label=100,!color=#ffcc33]:0.004899,('Heuchera americana var. hirsuticaulis H61-3 MO'[&!color=#ffcc33]:0.023347,'Heuchera_americana_var._hirsuticaulis_E1705_MO_Shannon'[&!color=#ffcc33]:0.024951)[&label=38,!color=#ffcc33]:0.003704)[&label=23,!color=#ffcc33]:0.002716,(((('Heuchera americana var. hirsuticaulis A41-2 MO'[&!color=#ffcc33]:0.018461,'Heuchera americana var. hirsuticaulis A41-1 MO'[&!color=#ffcc33]:0.015445)[&label=100,!color=#ffcc33]:0.006872,'Heuchera americana var. hirsuticaulis A41-3 MO'[&!color=#ffcc33]:0.021387)[&label=100,!color=#ffcc33]:0.00735,'Heuchera americana var. hirsuticaulis H62-4 MO'[&!color=#ffcc33]:0.01896)[&label=61,!color=#ffcc33]:0.001657,'Heuchera_americana_var._hirsuticaulis_E1531_AR_Randolph'[&!color=#ffcc33]:0.026536)[&label=48,!color=#ffcc33]:0.002703)[&label=14,!color=#ffcc33]:0.002215,(((('Heuchera_americana_var._hirsuticaulis_E1697_IL_Johnson'[&!color=#ffcc33]:0.029398,'Heuchera_americana_var._hirsuticaulis_E1693_IL_Alexander'[&!color=#ffcc33]:0.021053)[&label=88,!color=#ffcc33]:0.004043,'Heuchera americana var. hirsuticaulis H62-5 MO'[&!color=#ffcc33]:0.025043)[&label=80,!color=#ffcc33]:0.00333,('Heuchera_americana_var._hirsuticaulis_E1539_KY_Trigg'[&!color=#ffcc33]:0.031504,'Heuchera_americana_var._hirsuticaulis_E513_MO_Saint_Genevieve'[&!color=#ffcc33]:0.020616)[&label=58,!color=#ffcc33]:0.005319)[&label=62,!color=#ffcc33]:0.002808,(('Heuchera americana var. hirsuticaulis H61-1 MO'[&!color=#ffcc33]:0.014933,'Heuchera americana var. hirsuticaulis H61-2 MO'[&!color=#ffcc33]:0.020514)[&label=100,!color=#ffcc33]:0.009107,'Heuchera_americana_var._hirsuticaulis_E1526_AR_Franklin'[&!color=#ffcc33]:0.025681)[&label=23,!color=#ffcc33]:0.004769)[&label=14,!color=#ffcc33]:0.003543)[&label=0,!cartoon={18,0.040221999999999924},!color=#ffcc33]:0.001336)[&label=9]:0.002081,((('Heuchera_americana_var._hirsuticaulis_E503_MO_Jefferson'[&!color=#ffff66]:0.014073,'Heuchera_americana_var._hirsuticaulis_E1681_MO_Jefferson'[&!color=#ffff66]:0.010575)[&label=100,!color=#ffff66]:0.017336,'Heuchera americana var. hirsuticaulis H177-2 IL'[&!color=#ffff66]:0.029569)[&label=10,!color=#ffff66]:0.002452,(('Heuchera americana var. hirsuticaulis H62-6 MO'[&!color=#ffff66]:0.008671,'Heuchera americana var. hirsuticaulis H62-2 MO'[&!color=#ffff66]:0.009596)[&label=100,!color=#ffff66]:0.017324,'Heuchera americana var. hirsuticaulis H62-1 MO'[&!color=#ffff66]:0.028532)[&label=71,!color=#ffff66]:0.00485)[&label=17,!cartoon={6,0.050325999999999954},!color=#ffff66]:0.002626)[&label=38]:0.003096,(('Heuchera americana var. hirsuticaulis A40-3 IL'[&!color=#ffcc66]:0.010897,'Heuchera americana var. hirsuticaulis A40-2 IL'[&!color=#ffcc66]:0.01013)[&label=100,!color=#ffcc66]:0.016675,'Heuchera_americana_var._hirsuticaulis_A40_IL'[&!color=#ffcc66]:0.027411)[&label=100,!cartoon={3,0.05579899999999996},!color=#ffcc66]:0.006538)[&label=77]:0.003419)[&label=100]:0.013618,(((((Heuchera_inconstans_H33_AZ[&!color=#000000]:0.019022,'Heuchera inconstans I90-C AZ Coconino'[&!color=#000000]:0.019848)[&label=94,!color=#000000]:0.003985,Heuchera_eastwoodiae_H35_AZ[&!color=#000000]:0.02276)[&label=100,!color=#000000]:0.004498,('Heuchera novomexicana H24-1 NM'[&!color=#000000]:0.024473,'Heuchera glomerulata A22-1 AZ'[&!color=#000000]:0.028517)[&label=81,!color=#000000]:0.003821)[&label=84,!color=#000000]:0.006192,'Heuchera wootonii H22-1 NM'[&!color=#000000]:0.03029)[&label=100,!color=#000000]:0.015236,'Heuchera parvifolia H107-1 WY'[&!color=#000000]:0.029196)[&label=100,!cartoon={7,0.04192599999999999},!color=#000000]:0.011254)[&label=100]:0.031725,((((('Heuchera_americana_var._americana_I20_VA'[&!color=#000000]:0.010602,'Heuchera_longipetala_var._longipetala_I21'[&!color=#000000]:0.011574)[&label=100,!color=#000000]:0.029505,'Heuchera_mexicana_var._mexicana_I51'[&!color=#000000]:0.041803)[&label=100,!color=#000000]:0.00891,('Heuchera sanguinea A26-1 AZ'[&!color=#000000]:0.044053,'Heuchera elegans H44-1 CA'[&!color=#000000]:0.036954)[&label=100,!color=#000000]:0.008309)[&label=62,!color=#000000]:0.004095,'Heuchera woodsiaphila H23-1 NM'[&!color=#000000]:0.049745)[&label=83,!color=#000000]:0.006104,'Heuchera bracteata H164-1'[&!color=#000000]:0.048052)[&label=100,!color=#000000,!cartoon={7,0.05697199999999997}]:0.019138)[&label=100]:0.006907,((((((('Heuchera villosa var. arkansana H192-1'[&!color=#000000]:0.029576,'Heuchera villosa var. macrorhiza A30-1 MS'[&!color=#000000]:0.026704)[&label=74,!color=#000000]:0.004502,'Heuchera villosa var. villosa A5-1 GA'[&!color=#000000]:0.028834)[&label=100,!color=#000000]:0.007479,'Heuchera puberula H181-1 MO'[&!color=#000000]:0.036293)[&label=100,!color=#000000]:0.01113,('Heuchera parviflora var. parviflora H170-3 OH'[&!color=#000000]:0.03628,'Heuchera missouriensis A37-5 KY'[&!color=#000000]:0.03509)[&label=100,!color=#000000]:0.014496)[&label=100,!color=#000000]:0.036787,'Heuchera cylindrica var. glabella H115-1 MT Lewis and Clark'[&!color=#000000]:0.068515)[&label=100,!color=#000000]:0.010767,'Heuchera glabra H137-2 OR'[&!color=#000000]:0.093066)[&label=71,!cartoon={8,0.03319799999999995},!color=#000000]:0.005232,(Heuchera_maxima_I6:0.032542,'Heuchera_micrantha_var._macropetala_H146_OR':0.030826)[&label=100]:0.046237)[&label=100]:0.006907);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=178;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=99;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
