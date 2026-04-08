@@ -1,12 +1,12 @@
 # The geographic structure of chloroplast capture in a hybrid zone 
 
 ## Niche reconstructions
-* This directory contains scripts and data for ancestral niche reconstructions. This is a local version of the utremi package ((https://github.com/ryanafolk/utremi)[https://github.com/ryanafolk/utremi]) with modifications for multivariate analysis.
-*	See README.md in the (utremi package)[https://github.com/ryanafolk/utremi] for detailed instructions.
+* This directory contains scripts and data for ancestral niche reconstructions. This is a local version of the utremi package [https://github.com/ryanafolk/utremi](https://github.com/ryanafolk/utremi) with modifications for multivariate analysis.
+*	See README.md in the [utremi package](https://github.com/ryanafolk/utremi) for detailed instructions.
   
 ## Phylogenetics
 * This directory contains scripts and files for phylogenetic analysis. This includes: 
--	`spruceup_config`: Configuration file for (spruceup)[https://github.com/marekborowiec/spruceup].
+-	`spruceup_config`: Configuration file for [spruceup](https://github.com/marekborowiec/spruceup).
 -	`tanglegram`: Scripts, data, and results for nuclear, chloroplast, and mitochondria tanglegrams. The subfolders give input mitochondrial and chloroplast files, as well as figure output.
 -	`trees`: Directory containing labeled subdirectories with phylogeny files and figure outputs.	The Nuclear Astral trees/nick_final_spruceup subdirectory also contains a renaming script for raw tree files.
 -	`references`: Assembly references for plastid and nuclear data. (Mitochondrial assembly followed the published reference.)
