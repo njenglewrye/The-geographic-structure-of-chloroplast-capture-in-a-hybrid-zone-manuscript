@@ -11,6 +11,7 @@
 -	`trees`: Directory containing labeled subdirectories with phylogeny files and figure outputs.	The Nuclear Astral trees/nick_final_spruceup subdirectory also contains a renaming script for raw tree files.
 -	`references`: Assembly references for plastid and nuclear data. (Mitochondrial assembly followed the published reference.)
 The remaining files are scripts, to be followed in numerical order.
+-`concordance-factor_robinson-foulds`: Scripts for quantifying plastid-nuclear discordance.
 
 ## niche_modeling
 *	This directory contains scripts and output for presence absence matrices and species richness.
